@@ -1,11 +1,3 @@
-/* WiFi station Example
-
-   This example code is in the Public Domain (or CC0 licensed, at your option.)
-
-   Unless required by applicable law or agreed to in writing, this
-   software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR
-   CONDITIONS OF ANY KIND, either express or implied.
-*/
 #include <string.h>
 #include "freertos/FreeRTOS.h"
 #include "freertos/task.h"
@@ -22,31 +14,7 @@
 
 /* FreeRTOS event group to signal when we are connected*/
 static EventGroupHandle_t s_wifi_event_group;
-
-/* The event group allows multiple bits for each event, but we only care about one event 
- * - are we connected to the AP with an IP? */
-const int WIFI_CONNECTED_BIT = BIT0;
-const wifi_promiscuous_filter_t filt={
-    .filter_mask=WIFI_PROMIS_FILTER_MASK_MGMT
-};
-static const char *TAG = "wifi station";
-
 uint32_t last_clock_registered = 0;
-
-typedef struct {
-    unsigned frame_ctrl:16;
-    unsigned duration_id:16;
-    uint8_t addr1[6]; /* receiver address */
-    uint8_t addr2[6]; /* sender address */
-    uint8_t addr3[6]; /* filtering address */
-    unsigned sequence_ctrl:16;
-    uint8_t addr4[6]; /* optional */
-} wifi_ieee80211_mac_hdr_t;
-
-typedef struct {
-    wifi_ieee80211_mac_hdr_t hdr;
-    uint8_t payload[0]; /* network data ended with 4 bytes csum (CRC32) */
-} wifi_ieee80211_packet_t;
 
 /***
  * 
@@ -55,9 +23,15 @@ typedef struct {
  * ***/
 static esp_err_t event_handler(void *ctx, system_event_t *event);
 static void wifi_init_sniffer_sta(void);
-static const char *wifi_sniffer_packet_type2str(wifi_vendor_ie_type_t type);
+static void app_main();
+static void nvs_start();
+static void config_wifi();
+static void sniffer_config_wifi();
 static void wifi_sniffer_packet_handler(void *buff, wifi_vendor_ie_type_t type);
+
+
 static uint64_t xos_cycles_to_msecs(uint64_t cycles);
+static const char *wifi_sniffer_packet_type2str(wifi_vendor_ie_type_t type);
 
 
 
@@ -141,7 +115,7 @@ static esp_err_t event_handler(void *ctx, system_event_t *event)
             s_retry_num--;
             ESP_LOGD(CONFIG_TAG, "Retry to connect to the AP\n");
         }
-        ESP_LOGD(CONFIG_TAG, "Connect to the AP fail\n");
+        ESP_LOGE(CONFIG_TAG, "Connect to the AP fail\n");
         break;
 
     case SYSTEM_EVENT_STA_GOT_IP:
@@ -151,6 +125,7 @@ static esp_err_t event_handler(void *ctx, system_event_t *event)
             can begin its tasks (e.g., creating sockets).
         */
         ESP_LOGD(CONFIG_TAG, "Got ip:%s !! \n", ip4addr_ntoa(&event->event_info.got_ip.ip_info.ip));
+        sniffer_config_wifi();
         break;
     
     default:
@@ -292,7 +267,171 @@ void config_wifi()
                         channel of the ESP32 station.
     */
     ESP_ERROR_CHECK(esp_wifi_set_config(ESP_IF_WIFI_STA, &wifi_config));
-
     ESP_LOGI(CONFIG_TAG, "WiFi Config Done.\n");
+}
+
+/***
+ * Config Wifi to work on promiscuous mode and use sniffer function as callback.
+ * ***/
+void sniffer_config_wifi()
+{
+    /*
+        Enable the promiscuous mode packet type filter. The default filter is to filter all 
+        packets except WIFI_PKT_MISC.
+        @param filter the packet type filtered in promiscuous mode.
+    */
+    wifi_promiscuous_filter_t filt={
+        .filter_mask=WIFI_PROMIS_FILTER_MASK_MGMT
+    };
+    ESP_ERROR_CHECK(esp_wifi_set_promiscuous_filter(&filt));
+    /*
+        Enable the promiscuous mode.
+    */
+    ESP_ERROR_CHECK(esp_wifi_set_promiscuous(true));
+    /*
+        Register the RX callback function in the promiscuous mode.
+        Each time a packet is received, the registered callback function will be called.
+    */
+    ESP_ERROR_CHECK(esp_wifi_set_promiscuous_rx_cb(&wifi_sniffer_packet_handler));
+}
+
+/***
+ * For each packet received through promiscuous mode:
+ *      Check if it's a beacon corresponding to own AP. 
+ *          If so, synch lastClockRegistered.
+ *          Otherwise continue.
+ * ***/
+void wifi_sniffer_packet_handler(void* buff, wifi_vendor_ie_type_t type)
+{
+    /*
+        Promiscuous packets deserialization:
+        typedef struct {
+            typedef struct {
+                signed rssi:8;                =>< Received Signal Strength Indicator(RSSI) of packet. unit: dBm >
+                unsigned rate:5;              =>< PHY rate encoding of the packet. Only valid for non HT(11bg) packet >
+                unsigned :1;                  =>< reserve >
+                unsigned sig_mode:2;          =>< 0: non HT(11bg) packet; 1: HT(11n) packet; 3: VHT(11ac) packet >
+                unsigned :16;                 =>< reserve >
+                unsigned mcs:7;               =>< Modulation Coding Scheme. If is HT(11n) packet, shows the modulation, range from 0 to 76(MSC0 ~ MCS76) >
+                unsigned cwb:1;               =>< Channel Bandwidth of the packet. 0: 20MHz; 1: 40MHz >
+                unsigned :16;                 =>< reserve >
+                unsigned smoothing:1;         =>< reserve >
+                unsigned not_sounding:1;      =>< reserve >
+                unsigned :1;                  =>< reserve >
+                unsigned aggregation:1;       =>< Aggregation. 0: MPDU packet; 1: AMPDU packet >
+                unsigned stbc:2;              =>< Space Time Block Code(STBC). 0: non STBC packet; 1: STBC packet >
+                unsigned fec_coding:1;        =>< Flag is set for 11n packets which are LDPC >
+                unsigned sgi:1;               =>< Short Guide Interval(SGI). 0: Long GI; 1: Short GI >
+                signed noise_floor:8;         =>< noise floor of Radio Frequency Module(RF). unit: 0.25dBm>
+                unsigned ampdu_cnt:8;         =>< ampdu cnt >
+                unsigned channel:4;           =>< primary channel on which this packet is received >
+                unsigned secondary_channel:4; =>< secondary channel on which this packet is received. 0: none; 1: above; 2: below >
+                unsigned :8;                  =>< reserve >
+                unsigned timestamp:32;        =>< timestamp. The local time when this packet is received. It is precise only if modem sleep or light sleep is not enabled. unit: microsecond >
+                unsigned :32;                 =>< reserve >
+                unsigned :31;                 =>< reserve >
+                unsigned ant:1;               =>< antenna number from which this packet is received. 0: WiFi antenna 0; 1: WiFi antenna 1 >
+                unsigned sig_len:12;          =>< length of packet including Frame Check Sequence(FCS) >
+                unsigned :12;                 =>< reserve >
+                unsigned rx_state:8; =>< state of the packet. 0: no error; others: error numbers which are not public >
+            } wifi_pkt_rx_ctrl_t,
+            typedef struct {
+                typedef struct {
+                    unsigned frame_ctrl:16;
+                    unsigned duration_id:16;
+                    uint8_t addr1[6]; =>< receiver address >
+                    uint8_t addr2[6]; =>< sender address >
+                    uint8_t addr3[6]; =>< filtering address >
+                    unsigned sequence_ctrl:16;
+                    uint8_t addr4[6]; =>< optional >
+                } wifi_ieee80211_mac_hdr_t,
+                typedef struct {
+                    typedef struct{
+
+                    } wifi_ieee80211_data_network_t,
+                    typedef struct{
+
+                    } wifi_ieee80211_data_csum_t;
+                } wifi_ieee80211_payload_data_t;
+            } wifi_ieee80211_packet_t;
+        } wifi_promiscuous_pkt_t;
+    */
+    /*
+        Promiscuous packets deserialization with names defined in esp_wifi.h:
+        wifi_promiscuous_pkt_t {
+            wifi_pkt_rx_ctrl_t,
+            (wifi_ieee80211_packet_t) payload {
+                wifi_ieee80211_mac_hdr_t,
+                (wifi_ieee80211_payload_data_t) payload {
+                    wifi_ieee80211_data_network_t,
+                    wifi_ieee80211_data_csum_t
+                }
+            }
+        }
+    */
+    /*
+        Define structs that will be used to parse promiscuous packets. Note that they are not defined
+        on esp_wifi.h lib.
+    */
+    typedef struct {
+        unsigned frame_ctrl:16;
+        unsigned duration_id:16;
+        uint8_t addr1[6]; 
+        uint8_t addr2[6]; 
+        uint8_t addr3[6]; 
+        unsigned sequence_ctrl:16;
+        uint8_t addr4[6];
+    } wifi_ieee80211_mac_hdr_t;
+    typedef struct {
+        wifi_ieee80211_mac_hdr_t hdr;
+        uint8_t payload[0]; 
+    } wifi_ieee80211_packet_t;
+    /*
+        Get buffer stored and cast it as wifi_promiscuous_pkt_t
+    */
+    wifi_promiscuous_pkt_t *ppkt = (wifi_promiscuous_pkt_t *)buff;
+    /*
+        Get payload from wifi_promiscuous_pkt_t stored and cast it as wifi_ieee80211_packet_t
+    */
+    wifi_ieee80211_packet_t *ipkt = (wifi_ieee80211_packet_t *)ppkt->payload;
+    /*
+        Get wifi_ieee80211_mac_hdr_t from wifi_ieee80211_packet_t
+    */
+    wifi_ieee80211_mac_hdr_t *hdr = &ipkt->hdr;
+
+    /*
+        typedef struct {
+            uint8_t bssid[6];                     =><< MAC address of AP >
+            uint8_t ssid[33];                     =><< SSID of AP >
+            uint8_t primary;                      =><< channel of AP >
+            wifi_second_chan_t second;            =><< secondary channel of AP >
+            int8_t  rssi;                         =><< signal strength of AP >
+            wifi_auth_mode_t authmode;            =><< authmode of AP >
+            wifi_cipher_type_t pairwise_cipher;   =><< pairwise cipher of AP >
+            wifi_cipher_type_t group_cipher;      =><< group cipher of AP >
+            wifi_ant_t ant;                       =><< antenna used to receive beacon from AP >
+            uint32_t phy_11b:1;                   =><< bit: 0 flag to identify if 11b mode is enabled or not >
+            uint32_t phy_11g:1;                   =><< bit: 1 flag to identify if 11g mode is enabled or not >
+            uint32_t phy_11n:1;                   =><< bit: 2 flag to identify if 11n mode is enabled or not >
+            uint32_t phy_lr:1;                    =><< bit: 3 flag to identify if low rate is enabled or not >
+            uint32_t wps:1;                       =><< bit: 4 flag to identify if WPS is supported or not >
+            uint32_t reserved:27;                 =><< bit: 5..31 reserved >
+            wifi_country_t country;               =><< country information of AP >
+        } wifi_ap_record_t;
+    */
+    wifi_ap_record_t ap_info;
+    /*
+        Get information of AP which the ESP32 station is associated with.
+        Check if MAC of ESP32's provider AP equals to MAC of received packet. If they don't match,
+        drop papcket. Otherwise continue.
+    */
+    esp_wifi_sta_get_ap_info(&ap_info);
+    for(int i=0; i<sizeof(ap_info.bssid); i++){
+        if(ap_info.bssid[i]!=hdr->addr2[i]){
+            ESP_LOGD(CONFIG_LOCALIZATION_TAG, "Got promiscouous packet but no matching AP. Drop.")
+            return;
+        }
+    }
+    last_clock_registered =  (uint32_t *) xTaskGetTickCountFromISR();  
 }
 
