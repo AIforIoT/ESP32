@@ -27,7 +27,7 @@ pm_locks.o: /home/miquel/esp/esp-idf/components/esp32/pm_locks.c \
  /home/miquel/esp/esp-idf/components/newlib/include/sys/sched.h \
  /home/miquel/esp/esp-idf/components/newlib/include/sys/stdio.h \
  /home/miquel/esp/esp-idf/components/newlib/platform_include/assert.h \
- /home/miquel/esp/beacon_synch/build/include/sdkconfig.h \
+ /home/miquel/esp/ESP32/beacon_synch/build/include/sdkconfig.h \
  /home/miquel/esp/esp-idf/components/newlib/include/assert.h \
  /home/miquel/esp/esp-idf/components/esp32/include/esp32/pm.h \
  /home/miquel/esp/esp-idf/components/soc/esp32/include/soc/rtc.h \
@@ -139,7 +139,7 @@ pm_locks.o: /home/miquel/esp/esp-idf/components/esp32/pm_locks.c \
 
 /home/miquel/esp/esp-idf/components/newlib/platform_include/assert.h:
 
-/home/miquel/esp/beacon_synch/build/include/sdkconfig.h:
+/home/miquel/esp/ESP32/beacon_synch/build/include/sdkconfig.h:
 
 /home/miquel/esp/esp-idf/components/newlib/include/assert.h:
 

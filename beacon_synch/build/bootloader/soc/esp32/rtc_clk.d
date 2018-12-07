@@ -19,7 +19,7 @@ esp32/rtc_clk.o: /home/miquel/esp/esp-idf/components/soc/esp32/rtc_clk.c \
  /home/miquel/esp/esp-idf/components/soc/esp32/include/soc/dport_reg.h \
  /home/miquel/esp/esp-idf/components/soc/esp32/include/soc/dport_access.h \
  /home/miquel/esp/esp-idf/components/esp32/include/esp_dport_access.h \
- /home/miquel/esp/esp-idf/examples/wifi/getting_started/station/build/bootloader/../include/sdkconfig.h \
+ /home/miquel/esp/ESP32/beacon_synch/build/bootloader/../include/sdkconfig.h \
  /home/miquel/esp/esp-idf/components/soc/esp32/include/soc/uart_reg.h \
  /home/miquel/esp/esp-idf/components/esp32/include/xtensa/xtruntime.h \
  /home/miquel/esp/esp-idf/components/esp32/include/xtensa/config/core.h \
@@ -82,7 +82,7 @@ esp32/rtc_clk.o: /home/miquel/esp/esp-idf/components/soc/esp32/rtc_clk.c \
 
 /home/miquel/esp/esp-idf/components/esp32/include/esp_dport_access.h:
 
-/home/miquel/esp/esp-idf/examples/wifi/getting_started/station/build/bootloader/../include/sdkconfig.h:
+/home/miquel/esp/ESP32/beacon_synch/build/bootloader/../include/sdkconfig.h:
 
 /home/miquel/esp/esp-idf/components/soc/esp32/include/soc/uart_reg.h:
 

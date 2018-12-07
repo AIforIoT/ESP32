@@ -6,7 +6,7 @@ src/flash_qio_mode.o: \
  /home/miquel/esp/esp-idf/components/newlib/include/sys/_intsup.h \
  /home/miquel/esp/esp-idf/components/bootloader_support/include_bootloader/flash_qio_mode.h \
  /home/miquel/esp/esp-idf/components/log/include/esp_log.h \
- /home/miquel/esp/beacon_synch/build/include/sdkconfig.h \
+ /home/miquel/esp/ESP32/beacon_synch/build/include/sdkconfig.h \
  /home/miquel/esp/esp-idf/components/esp32/include/rom/ets_sys.h \
  /home/miquel/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
  /home/miquel/esp/esp-idf/components/esp32/include/esp_assert.h \
@@ -53,7 +53,7 @@ src/flash_qio_mode.o: \
 
 /home/miquel/esp/esp-idf/components/log/include/esp_log.h:
 
-/home/miquel/esp/beacon_synch/build/include/sdkconfig.h:
+/home/miquel/esp/ESP32/beacon_synch/build/include/sdkconfig.h:
 
 /home/miquel/esp/esp-idf/components/esp32/include/rom/ets_sys.h:
 

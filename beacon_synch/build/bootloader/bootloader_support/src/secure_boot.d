@@ -3,7 +3,7 @@ src/secure_boot.o: \
  /home/miquel/esp/esp-idf/components/esp32/include/esp_attr.h \
  /home/miquel/esp/esp-idf/components/esp32/include/esp_types.h \
  /home/miquel/esp/esp-idf/components/log/include/esp_log.h \
- /home/miquel/esp/esp-idf/examples/wifi/getting_started/station/build/bootloader/../include/sdkconfig.h \
+ /home/miquel/esp/ESP32/beacon_synch/build/bootloader/../include/sdkconfig.h \
  /home/miquel/esp/esp-idf/components/esp32/include/rom/ets_sys.h \
  /home/miquel/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
  /home/miquel/esp/esp-idf/components/esp32/include/esp_assert.h \
@@ -46,7 +46,7 @@ src/secure_boot.o: \
 
 /home/miquel/esp/esp-idf/components/log/include/esp_log.h:
 
-/home/miquel/esp/esp-idf/examples/wifi/getting_started/station/build/bootloader/../include/sdkconfig.h:
+/home/miquel/esp/ESP32/beacon_synch/build/bootloader/../include/sdkconfig.h:
 
 /home/miquel/esp/esp-idf/components/esp32/include/rom/ets_sys.h:
 

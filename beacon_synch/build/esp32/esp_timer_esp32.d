@@ -22,7 +22,7 @@ esp_timer_esp32.o: \
  /home/miquel/esp/esp-idf/components/newlib/include/sys/sched.h \
  /home/miquel/esp/esp-idf/components/newlib/include/sys/stdio.h \
  /home/miquel/esp/esp-idf/components/newlib/platform_include/assert.h \
- /home/miquel/esp/beacon_synch/build/include/sdkconfig.h \
+ /home/miquel/esp/ESP32/beacon_synch/build/include/sdkconfig.h \
  /home/miquel/esp/esp-idf/components/newlib/include/stdlib.h \
  /home/miquel/esp/esp-idf/components/newlib/include/machine/stdlib.h \
  /home/miquel/esp/esp-idf/components/newlib/include/alloca.h \
@@ -60,8 +60,10 @@ esp_timer_esp32.o: \
  /home/miquel/esp/esp-idf/components/esp32/include/xtensa/config/core-matmap.h \
  /home/miquel/esp/esp-idf/components/soc/esp32/include/soc/touch_channel.h \
  /home/miquel/esp/esp-idf/components/esp32/include/esp_task.h \
- /home/miquel/esp/esp-idf/components/log/include/esp_log.h \
+ /home/miquel/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h \
+ /home/miquel/esp/esp-idf/components/freertos/include/freertos/xtensa_config.h \
  /home/miquel/esp/esp-idf/components/esp32/include/rom/ets_sys.h \
+ /home/miquel/esp/esp-idf/components/log/include/esp_log.h \
  /home/miquel/esp/esp-idf/components/log/include/esp_log_internal.h \
  /home/miquel/esp/esp-idf/components/esp32/include/esp_clk.h \
  /home/miquel/esp/esp-idf/components/esp32/esp_timer_impl.h \
@@ -69,7 +71,6 @@ esp_timer_esp32.o: \
  /home/miquel/esp/esp-idf/components/soc/esp32/include/soc/rtc.h \
  /home/miquel/esp/esp-idf/components/freertos/include/freertos/FreeRTOS.h \
  /home/miquel/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h \
- /home/miquel/esp/esp-idf/components/freertos/include/freertos/xtensa_config.h \
  /home/miquel/esp/esp-idf/components/freertos/include/freertos/projdefs.h \
  /home/miquel/esp/esp-idf/components/freertos/include/freertos/portable.h \
  /home/miquel/esp/esp-idf/components/freertos/include/freertos/deprecated_definitions.h \
@@ -133,7 +134,7 @@ esp_timer_esp32.o: \
 
 /home/miquel/esp/esp-idf/components/newlib/platform_include/assert.h:
 
-/home/miquel/esp/beacon_synch/build/include/sdkconfig.h:
+/home/miquel/esp/ESP32/beacon_synch/build/include/sdkconfig.h:
 
 /home/miquel/esp/esp-idf/components/newlib/include/stdlib.h:
 
@@ -209,9 +210,13 @@ esp_timer_esp32.o: \
 
 /home/miquel/esp/esp-idf/components/esp32/include/esp_task.h:
 
-/home/miquel/esp/esp-idf/components/log/include/esp_log.h:
+/home/miquel/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h:
+
+/home/miquel/esp/esp-idf/components/freertos/include/freertos/xtensa_config.h:
 
 /home/miquel/esp/esp-idf/components/esp32/include/rom/ets_sys.h:
+
+/home/miquel/esp/esp-idf/components/log/include/esp_log.h:
 
 /home/miquel/esp/esp-idf/components/log/include/esp_log_internal.h:
 
@@ -226,8 +231,6 @@ esp_timer_esp32.o: \
 /home/miquel/esp/esp-idf/components/freertos/include/freertos/FreeRTOS.h:
 
 /home/miquel/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h:
-
-/home/miquel/esp/esp-idf/components/freertos/include/freertos/xtensa_config.h:
 
 /home/miquel/esp/esp-idf/components/freertos/include/freertos/projdefs.h:
 

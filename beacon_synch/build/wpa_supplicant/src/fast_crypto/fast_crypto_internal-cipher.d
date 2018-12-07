@@ -30,7 +30,7 @@ src/fast_crypto/fast_crypto_internal-cipher.o: \
  /home/miquel/esp/esp-idf/components/newlib/include/alloca.h \
  /home/miquel/esp/esp-idf/components/esp32/include/esp_err.h \
  /home/miquel/esp/esp-idf/components/newlib/platform_include/assert.h \
- /home/miquel/esp/beacon_synch/build/include/sdkconfig.h \
+ /home/miquel/esp/ESP32/beacon_synch/build/include/sdkconfig.h \
  /home/miquel/esp/esp-idf/components/newlib/include/assert.h \
  /home/miquel/esp/esp-idf/components/esp32/include/rom/ets_sys.h \
  /home/miquel/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
@@ -41,6 +41,7 @@ src/fast_crypto/fast_crypto_internal-cipher.o: \
  /home/miquel/esp/esp-idf/components/wpa_supplicant/include/crypto/aes.h \
  /home/miquel/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/aes.h \
  /home/miquel/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h \
+ /home/miquel/esp/esp-idf/components/mbedtls/port/include/esp_mem.h \
  /home/miquel/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/check_config.h \
  /home/miquel/esp/esp-idf/components/newlib/include/limits.h \
  /home/miquel/esp/esp-idf/components/mbedtls/port/include/aes_alt.h \
@@ -107,7 +108,7 @@ src/fast_crypto/fast_crypto_internal-cipher.o: \
 
 /home/miquel/esp/esp-idf/components/newlib/platform_include/assert.h:
 
-/home/miquel/esp/beacon_synch/build/include/sdkconfig.h:
+/home/miquel/esp/ESP32/beacon_synch/build/include/sdkconfig.h:
 
 /home/miquel/esp/esp-idf/components/newlib/include/assert.h:
 
@@ -128,6 +129,8 @@ src/fast_crypto/fast_crypto_internal-cipher.o: \
 /home/miquel/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/aes.h:
 
 /home/miquel/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h:
+
+/home/miquel/esp/esp-idf/components/mbedtls/port/include/esp_mem.h:
 
 /home/miquel/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/check_config.h:
 

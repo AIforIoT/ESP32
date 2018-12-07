@@ -21,7 +21,7 @@ esp32/soc_memory_layout.o: \
  /home/miquel/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
  /home/miquel/esp/esp-idf/components/esp32/include/esp_assert.h \
  /home/miquel/esp/esp-idf/components/newlib/platform_include/assert.h \
- /home/miquel/esp/beacon_synch/build/include/sdkconfig.h \
+ /home/miquel/esp/ESP32/beacon_synch/build/include/sdkconfig.h \
  /home/miquel/esp/esp-idf/components/newlib/include/assert.h \
  /home/miquel/esp/esp-idf/components/soc/include/soc/soc_memory_layout.h \
  /home/miquel/esp/esp-idf/components/esp32/include/esp_attr.h \
@@ -70,7 +70,7 @@ esp32/soc_memory_layout.o: \
 
 /home/miquel/esp/esp-idf/components/newlib/platform_include/assert.h:
 
-/home/miquel/esp/beacon_synch/build/include/sdkconfig.h:
+/home/miquel/esp/ESP32/beacon_synch/build/include/sdkconfig.h:
 
 /home/miquel/esp/esp-idf/components/newlib/include/assert.h:
 

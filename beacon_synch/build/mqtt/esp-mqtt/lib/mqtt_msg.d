@@ -19,7 +19,7 @@ esp-mqtt/lib/mqtt_msg.o: \
  /home/miquel/esp/esp-idf/components/newlib/include/sys/string.h \
  /home/miquel/esp/esp-idf/components/mqtt/esp-mqtt/lib/include/mqtt_msg.h \
  /home/miquel/esp/esp-idf/components/mqtt/esp-mqtt/include/mqtt_config.h \
- /home/miquel/esp/beacon_synch/build/include/sdkconfig.h \
+ /home/miquel/esp/ESP32/beacon_synch/build/include/sdkconfig.h \
  /home/miquel/esp/esp-idf/components/mqtt/esp-mqtt/lib/include/platform.h \
  /home/miquel/esp/esp-idf/components/mqtt/esp-mqtt/lib/include/platform_esp32_idf.h \
  /home/miquel/esp/esp-idf/components/freertos/include/freertos/FreeRTOS.h \
@@ -107,6 +107,7 @@ esp-mqtt/lib/mqtt_msg.o: \
  /home/miquel/esp/esp-idf/components/vfs/include/sys/ioctl.h \
  /home/miquel/esp/esp-idf/components/newlib/platform_include/sys/select.h \
  /home/miquel/esp/esp-idf/components/esp32/include/esp_task.h \
+ /home/miquel/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h \
  /home/miquel/esp/esp-idf/components/lwip/port/esp32/include/netif/dhcp_state.h \
  /home/miquel/esp/esp-idf/components/lwip/lwip/src/include/lwip/debug.h \
  /home/miquel/esp/esp-idf/components/lwip/lwip/src/include/lwip/arch.h \
@@ -170,7 +171,7 @@ esp-mqtt/lib/mqtt_msg.o: \
 
 /home/miquel/esp/esp-idf/components/mqtt/esp-mqtt/include/mqtt_config.h:
 
-/home/miquel/esp/beacon_synch/build/include/sdkconfig.h:
+/home/miquel/esp/ESP32/beacon_synch/build/include/sdkconfig.h:
 
 /home/miquel/esp/esp-idf/components/mqtt/esp-mqtt/lib/include/platform.h:
 
@@ -345,6 +346,8 @@ esp-mqtt/lib/mqtt_msg.o: \
 /home/miquel/esp/esp-idf/components/newlib/platform_include/sys/select.h:
 
 /home/miquel/esp/esp-idf/components/esp32/include/esp_task.h:
+
+/home/miquel/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h:
 
 /home/miquel/esp/esp-idf/components/lwip/port/esp32/include/netif/dhcp_state.h:
 

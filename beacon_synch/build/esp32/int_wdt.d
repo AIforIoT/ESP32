@@ -1,5 +1,5 @@
 int_wdt.o: /home/miquel/esp/esp-idf/components/esp32/int_wdt.c \
- /home/miquel/esp/beacon_synch/build/include/sdkconfig.h \
+ /home/miquel/esp/ESP32/beacon_synch/build/include/sdkconfig.h \
  /home/miquel/esp/esp-idf/components/newlib/include/stdint.h \
  /home/miquel/esp/esp-idf/components/newlib/include/machine/_default_types.h \
  /home/miquel/esp/esp-idf/components/newlib/include/sys/features.h \
@@ -90,7 +90,7 @@ int_wdt.o: /home/miquel/esp/esp-idf/components/esp32/int_wdt.c \
  /home/miquel/esp/esp-idf/components/soc/esp32/include/soc/periph_defs.h \
  /home/miquel/esp/esp-idf/components/esp32/include/esp_int_wdt.h
 
-/home/miquel/esp/beacon_synch/build/include/sdkconfig.h:
+/home/miquel/esp/ESP32/beacon_synch/build/include/sdkconfig.h:
 
 /home/miquel/esp/esp-idf/components/newlib/include/stdint.h:
 

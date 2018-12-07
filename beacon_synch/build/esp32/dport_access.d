@@ -16,7 +16,7 @@ dport_access.o: /home/miquel/esp/esp-idf/components/esp32/dport_access.c \
  /home/miquel/esp/esp-idf/components/newlib/include/sys/lock.h \
  /home/miquel/esp/esp-idf/components/newlib/include/sys/cdefs.h \
  /home/miquel/esp/esp-idf/components/newlib/include/sys/string.h \
- /home/miquel/esp/beacon_synch/build/include/sdkconfig.h \
+ /home/miquel/esp/ESP32/beacon_synch/build/include/sdkconfig.h \
  /home/miquel/esp/esp-idf/components/esp32/include/esp_attr.h \
  /home/miquel/esp/esp-idf/components/esp32/include/esp_err.h \
  /home/miquel/esp/esp-idf/components/newlib/include/stdio.h \
@@ -129,7 +129,7 @@ dport_access.o: /home/miquel/esp/esp-idf/components/esp32/dport_access.c \
 
 /home/miquel/esp/esp-idf/components/newlib/include/sys/string.h:
 
-/home/miquel/esp/beacon_synch/build/include/sdkconfig.h:
+/home/miquel/esp/ESP32/beacon_synch/build/include/sdkconfig.h:
 
 /home/miquel/esp/esp-idf/components/esp32/include/esp_attr.h:
 

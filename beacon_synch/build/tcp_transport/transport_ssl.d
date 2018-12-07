@@ -22,7 +22,7 @@ transport_ssl.o: \
  /home/miquel/esp/esp-idf/components/newlib/include/stdint.h \
  /home/miquel/esp/esp-idf/components/newlib/include/sys/_intsup.h \
  /home/miquel/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h \
- /home/miquel/esp/beacon_synch/build/include/sdkconfig.h \
+ /home/miquel/esp/ESP32/beacon_synch/build/include/sdkconfig.h \
  /home/miquel/esp/esp-idf/components/freertos/include/freertos/xtensa_config.h \
  /home/miquel/esp/esp-idf/components/esp32/include/xtensa/hal.h \
  /home/miquel/esp/esp-idf/components/esp32/include/xtensa/config/core.h \
@@ -99,6 +99,7 @@ transport_ssl.o: \
  /home/miquel/esp/esp-idf/components/vfs/include/sys/ioctl.h \
  /home/miquel/esp/esp-idf/components/newlib/platform_include/sys/select.h \
  /home/miquel/esp/esp-idf/components/esp32/include/esp_task.h \
+ /home/miquel/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h \
  /home/miquel/esp/esp-idf/components/lwip/port/esp32/include/netif/dhcp_state.h \
  /home/miquel/esp/esp-idf/components/lwip/lwip/src/include/lwip/debug.h \
  /home/miquel/esp/esp-idf/components/lwip/lwip/src/include/lwip/arch.h \
@@ -123,6 +124,7 @@ transport_ssl.o: \
  /home/miquel/esp/esp-idf/components/newlib/include/fcntl.h \
  /home/miquel/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/platform.h \
  /home/miquel/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h \
+ /home/miquel/esp/esp-idf/components/mbedtls/port/include/esp_mem.h \
  /home/miquel/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/check_config.h \
  /home/miquel/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/platform_time.h \
  /home/miquel/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/net_sockets.h \
@@ -154,10 +156,10 @@ transport_ssl.o: \
  /home/miquel/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/certs.h \
  /home/miquel/esp/esp-idf/components/log/include/esp_log.h \
  /home/miquel/esp/esp-idf/components/log/include/esp_log_internal.h \
- /home/miquel/esp/esp-idf/components/tcp_transport/include/transport.h \
- /home/miquel/esp/esp-idf/components/tcp_transport/include/transport_ssl.h \
- /home/miquel/esp/esp-idf/components/tcp_transport/include/transport.h \
- /home/miquel/esp/esp-idf/components/tcp_transport/include/transport_utils.h
+ /home/miquel/esp/esp-idf/components/tcp_transport/include/esp_transport.h \
+ /home/miquel/esp/esp-idf/components/tcp_transport/include/esp_transport_ssl.h \
+ /home/miquel/esp/esp-idf/components/tcp_transport/include/esp_transport.h \
+ /home/miquel/esp/esp-idf/components/tcp_transport/include/esp_transport_utils.h
 
 /home/miquel/esp/esp-idf/components/newlib/include/string.h:
 
@@ -203,7 +205,7 @@ transport_ssl.o: \
 
 /home/miquel/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h:
 
-/home/miquel/esp/beacon_synch/build/include/sdkconfig.h:
+/home/miquel/esp/ESP32/beacon_synch/build/include/sdkconfig.h:
 
 /home/miquel/esp/esp-idf/components/freertos/include/freertos/xtensa_config.h:
 
@@ -357,6 +359,8 @@ transport_ssl.o: \
 
 /home/miquel/esp/esp-idf/components/esp32/include/esp_task.h:
 
+/home/miquel/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h:
+
 /home/miquel/esp/esp-idf/components/lwip/port/esp32/include/netif/dhcp_state.h:
 
 /home/miquel/esp/esp-idf/components/lwip/lwip/src/include/lwip/debug.h:
@@ -404,6 +408,8 @@ transport_ssl.o: \
 /home/miquel/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/platform.h:
 
 /home/miquel/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h:
+
+/home/miquel/esp/esp-idf/components/mbedtls/port/include/esp_mem.h:
 
 /home/miquel/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/check_config.h:
 
@@ -467,11 +473,11 @@ transport_ssl.o: \
 
 /home/miquel/esp/esp-idf/components/log/include/esp_log_internal.h:
 
-/home/miquel/esp/esp-idf/components/tcp_transport/include/transport.h:
+/home/miquel/esp/esp-idf/components/tcp_transport/include/esp_transport.h:
 
-/home/miquel/esp/esp-idf/components/tcp_transport/include/transport_ssl.h:
+/home/miquel/esp/esp-idf/components/tcp_transport/include/esp_transport_ssl.h:
 
-/home/miquel/esp/esp-idf/components/tcp_transport/include/transport.h:
+/home/miquel/esp/esp-idf/components/tcp_transport/include/esp_transport.h:
 
-/home/miquel/esp/esp-idf/components/tcp_transport/include/transport_utils.h:
+/home/miquel/esp/esp-idf/components/tcp_transport/include/esp_transport_utils.h:
 /home/miquel/esp/esp-idf/components/tcp_transport/./transport_ssl.c:

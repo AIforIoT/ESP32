@@ -15,7 +15,7 @@ FreeRTOS-openocd.o: \
  /home/miquel/esp/esp-idf/components/newlib/include/stdint.h \
  /home/miquel/esp/esp-idf/components/newlib/include/sys/_intsup.h \
  /home/miquel/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h \
- /home/miquel/esp/beacon_synch/build/include/sdkconfig.h \
+ /home/miquel/esp/ESP32/beacon_synch/build/include/sdkconfig.h \
  /home/miquel/esp/esp-idf/components/freertos/include/freertos/xtensa_config.h \
  /home/miquel/esp/esp-idf/components/esp32/include/xtensa/hal.h \
  /home/miquel/esp/esp-idf/components/esp32/include/xtensa/config/core.h \
@@ -107,7 +107,7 @@ FreeRTOS-openocd.o: \
 
 /home/miquel/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h:
 
-/home/miquel/esp/beacon_synch/build/include/sdkconfig.h:
+/home/miquel/esp/ESP32/beacon_synch/build/include/sdkconfig.h:
 
 /home/miquel/esp/esp-idf/components/freertos/include/freertos/xtensa_config.h:
 

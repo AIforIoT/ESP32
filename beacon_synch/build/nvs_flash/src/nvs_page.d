@@ -24,7 +24,7 @@ src/nvs_page.o: \
  /home/miquel/esp/esp-idf/components/newlib/include/sys/sched.h \
  /home/miquel/esp/esp-idf/components/newlib/include/sys/stdio.h \
  /home/miquel/esp/esp-idf/components/newlib/platform_include/assert.h \
- /home/miquel/esp/beacon_synch/build/include/sdkconfig.h \
+ /home/miquel/esp/ESP32/beacon_synch/build/include/sdkconfig.h \
  /home/miquel/esp/esp-idf/components/newlib/include/stdlib.h \
  /home/miquel/esp/esp-idf/components/newlib/include/machine/stdlib.h \
  /home/miquel/esp/esp-idf/components/newlib/include/alloca.h \
@@ -34,7 +34,8 @@ src/nvs_page.o: \
  /home/miquel/esp/esp-idf/components/spi_flash/include/esp_spi_flash.h \
  /home/miquel/esp/esp-idf/components/nvs_flash/src/intrusive_list.h \
  /home/miquel/esp/esp-idf/components/nvs_flash/src/nvs_item_hash_list.hpp \
- /home/miquel/esp/esp-idf/components/esp32/include/rom/crc.h
+ /home/miquel/esp/esp-idf/components/esp32/include/rom/crc.h \
+ /home/miquel/esp/esp-idf/components/nvs_flash/src/nvs_ops.hpp
 
 /home/miquel/esp/esp-idf/components/nvs_flash/src/nvs_page.hpp:
 
@@ -84,7 +85,7 @@ src/nvs_page.o: \
 
 /home/miquel/esp/esp-idf/components/newlib/platform_include/assert.h:
 
-/home/miquel/esp/beacon_synch/build/include/sdkconfig.h:
+/home/miquel/esp/ESP32/beacon_synch/build/include/sdkconfig.h:
 
 /home/miquel/esp/esp-idf/components/newlib/include/stdlib.h:
 
@@ -105,4 +106,6 @@ src/nvs_page.o: \
 /home/miquel/esp/esp-idf/components/nvs_flash/src/nvs_item_hash_list.hpp:
 
 /home/miquel/esp/esp-idf/components/esp32/include/rom/crc.h:
+
+/home/miquel/esp/esp-idf/components/nvs_flash/src/nvs_ops.hpp:
 /home/miquel/esp/esp-idf/components/nvs_flash/src/nvs_page.cpp:

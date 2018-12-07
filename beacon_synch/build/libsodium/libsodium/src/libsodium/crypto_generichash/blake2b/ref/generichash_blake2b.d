@@ -1,7 +1,7 @@
 libsodium/src/libsodium/crypto_generichash/blake2b/ref/generichash_blake2b.o: \
  /home/miquel/esp/esp-idf/components/libsodium/libsodium/src/libsodium/crypto_generichash/blake2b/ref/generichash_blake2b.c \
  /home/miquel/esp/esp-idf/components/newlib/platform_include/assert.h \
- /home/miquel/esp/beacon_synch/build/include/sdkconfig.h \
+ /home/miquel/esp/ESP32/beacon_synch/build/include/sdkconfig.h \
  /home/miquel/esp/esp-idf/components/newlib/include/stdlib.h \
  /home/miquel/esp/esp-idf/components/newlib/include/machine/ieeefp.h \
  /home/miquel/esp/esp-idf/components/newlib/include/_ansi.h \
@@ -29,7 +29,7 @@ libsodium/src/libsodium/crypto_generichash/blake2b/ref/generichash_blake2b.o: \
 
 /home/miquel/esp/esp-idf/components/newlib/platform_include/assert.h:
 
-/home/miquel/esp/beacon_synch/build/include/sdkconfig.h:
+/home/miquel/esp/ESP32/beacon_synch/build/include/sdkconfig.h:
 
 /home/miquel/esp/esp-idf/components/newlib/include/stdlib.h:
 

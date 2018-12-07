@@ -25,7 +25,7 @@ esp_http_client.o: \
  /home/miquel/esp/esp-idf/components/newlib/include/sys/sched.h \
  /home/miquel/esp/esp-idf/components/newlib/include/sys/stdio.h \
  /home/miquel/esp/esp-idf/components/newlib/platform_include/assert.h \
- /home/miquel/esp/beacon_synch/build/include/sdkconfig.h \
+ /home/miquel/esp/ESP32/beacon_synch/build/include/sdkconfig.h \
  /home/miquel/esp/esp-idf/components/newlib/include/stdlib.h \
  /home/miquel/esp/esp-idf/components/newlib/include/machine/stdlib.h \
  /home/miquel/esp/esp-idf/components/newlib/include/alloca.h \
@@ -65,12 +65,12 @@ esp_http_client.o: \
  /home/miquel/esp/esp-idf/components/log/include/esp_log_internal.h \
  /home/miquel/esp/esp-idf/components/esp_http_client/lib/include/http_header.h \
  /home/miquel/esp/esp-idf/components/esp32/include/rom/queue.h \
- /home/miquel/esp/esp-idf/components/tcp_transport/include/transport.h \
- /home/miquel/esp/esp-idf/components/tcp_transport/include/transport_tcp.h \
- /home/miquel/esp/esp-idf/components/tcp_transport/include/transport.h \
+ /home/miquel/esp/esp-idf/components/tcp_transport/include/esp_transport.h \
+ /home/miquel/esp/esp-idf/components/tcp_transport/include/esp_transport_tcp.h \
+ /home/miquel/esp/esp-idf/components/tcp_transport/include/esp_transport.h \
  /home/miquel/esp/esp-idf/components/esp_http_client/lib/include/http_utils.h \
  /home/miquel/esp/esp-idf/components/newlib/include/sys/time.h \
- /home/miquel/esp/esp-idf/components/tcp_transport/include/transport_utils.h \
+ /home/miquel/esp/esp-idf/components/tcp_transport/include/esp_transport_utils.h \
  /home/miquel/esp/esp-idf/components/esp_http_client/lib/include/http_auth.h \
  /home/miquel/esp/esp-idf/components/esp_http_client/include/esp_http_client.h \
  /home/miquel/esp/esp-idf/components/freertos/include/freertos/FreeRTOS.h \
@@ -91,7 +91,10 @@ esp_http_client.o: \
  /home/miquel/esp/esp-idf/components/freertos/include/freertos/portbenchmark.h \
  /home/miquel/esp/esp-idf/components/freertos/include/freertos/mpu_wrappers.h \
  /home/miquel/esp/esp-idf/components/nghttp/port/include/http_parser.h \
- /home/miquel/esp/esp-idf/components/tcp_transport/include/transport_ssl.h
+ /home/miquel/esp/esp-idf/components/newlib/platform_include/errno.h \
+ /home/miquel/esp/esp-idf/components/newlib/include/errno.h \
+ /home/miquel/esp/esp-idf/components/newlib/include/sys/errno.h \
+ /home/miquel/esp/esp-idf/components/tcp_transport/include/esp_transport_ssl.h
 
 /home/miquel/esp/esp-idf/components/newlib/include/string.h:
 
@@ -143,7 +146,7 @@ esp_http_client.o: \
 
 /home/miquel/esp/esp-idf/components/newlib/platform_include/assert.h:
 
-/home/miquel/esp/beacon_synch/build/include/sdkconfig.h:
+/home/miquel/esp/ESP32/beacon_synch/build/include/sdkconfig.h:
 
 /home/miquel/esp/esp-idf/components/newlib/include/stdlib.h:
 
@@ -223,17 +226,17 @@ esp_http_client.o: \
 
 /home/miquel/esp/esp-idf/components/esp32/include/rom/queue.h:
 
-/home/miquel/esp/esp-idf/components/tcp_transport/include/transport.h:
+/home/miquel/esp/esp-idf/components/tcp_transport/include/esp_transport.h:
 
-/home/miquel/esp/esp-idf/components/tcp_transport/include/transport_tcp.h:
+/home/miquel/esp/esp-idf/components/tcp_transport/include/esp_transport_tcp.h:
 
-/home/miquel/esp/esp-idf/components/tcp_transport/include/transport.h:
+/home/miquel/esp/esp-idf/components/tcp_transport/include/esp_transport.h:
 
 /home/miquel/esp/esp-idf/components/esp_http_client/lib/include/http_utils.h:
 
 /home/miquel/esp/esp-idf/components/newlib/include/sys/time.h:
 
-/home/miquel/esp/esp-idf/components/tcp_transport/include/transport_utils.h:
+/home/miquel/esp/esp-idf/components/tcp_transport/include/esp_transport_utils.h:
 
 /home/miquel/esp/esp-idf/components/esp_http_client/lib/include/http_auth.h:
 
@@ -275,5 +278,11 @@ esp_http_client.o: \
 
 /home/miquel/esp/esp-idf/components/nghttp/port/include/http_parser.h:
 
-/home/miquel/esp/esp-idf/components/tcp_transport/include/transport_ssl.h:
+/home/miquel/esp/esp-idf/components/newlib/platform_include/errno.h:
+
+/home/miquel/esp/esp-idf/components/newlib/include/errno.h:
+
+/home/miquel/esp/esp-idf/components/newlib/include/sys/errno.h:
+
+/home/miquel/esp/esp-idf/components/tcp_transport/include/esp_transport_ssl.h:
 /home/miquel/esp/esp-idf/components/esp_http_client/./esp_http_client.c:

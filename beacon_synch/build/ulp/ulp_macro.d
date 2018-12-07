@@ -27,7 +27,7 @@ ulp_macro.o: /home/miquel/esp/esp-idf/components/ulp/ulp_macro.c \
  /home/miquel/esp/esp-idf/components/newlib/include/stdint.h \
  /home/miquel/esp/esp-idf/components/newlib/include/sys/_intsup.h \
  /home/miquel/esp/esp-idf/components/newlib/platform_include/assert.h \
- /home/miquel/esp/beacon_synch/build/include/sdkconfig.h \
+ /home/miquel/esp/ESP32/beacon_synch/build/include/sdkconfig.h \
  /home/miquel/esp/esp-idf/components/newlib/include/assert.h \
  /home/miquel/esp/esp-idf/components/log/include/esp_log.h \
  /home/miquel/esp/esp-idf/components/esp32/include/rom/ets_sys.h \
@@ -95,7 +95,7 @@ ulp_macro.o: /home/miquel/esp/esp-idf/components/ulp/ulp_macro.c \
 
 /home/miquel/esp/esp-idf/components/newlib/platform_include/assert.h:
 
-/home/miquel/esp/beacon_synch/build/include/sdkconfig.h:
+/home/miquel/esp/ESP32/beacon_synch/build/include/sdkconfig.h:
 
 /home/miquel/esp/esp-idf/components/newlib/include/assert.h:
 

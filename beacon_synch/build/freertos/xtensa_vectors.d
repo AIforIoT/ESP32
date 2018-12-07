@@ -13,7 +13,7 @@ xtensa_vectors.o: \
  /home/miquel/esp/esp-idf/components/esp32/include/xtensa/corebits.h \
  /home/miquel/esp/esp-idf/components/esp32/include/xtensa/config/system.h \
  /home/miquel/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h \
- /home/miquel/esp/beacon_synch/build/include/sdkconfig.h \
+ /home/miquel/esp/ESP32/beacon_synch/build/include/sdkconfig.h \
  /home/miquel/esp/esp-idf/components/freertos/include/freertos/xtensa_config.h \
  /home/miquel/esp/esp-idf/components/freertos/include/freertos/xtensa_context.h \
  /home/miquel/esp/esp-idf/components/esp32/include/xtensa/xtruntime-frames.h \
@@ -50,7 +50,7 @@ xtensa_vectors.o: \
 
 /home/miquel/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h:
 
-/home/miquel/esp/beacon_synch/build/include/sdkconfig.h:
+/home/miquel/esp/ESP32/beacon_synch/build/include/sdkconfig.h:
 
 /home/miquel/esp/esp-idf/components/freertos/include/freertos/xtensa_config.h:
 

@@ -34,7 +34,7 @@ port/esp32/freertos/sys_arch.o: \
  /home/miquel/esp/esp-idf/components/newlib/include/errno.h \
  /home/miquel/esp/esp-idf/components/newlib/include/sys/errno.h \
  /home/miquel/esp/esp-idf/components/newlib/platform_include/assert.h \
- /home/miquel/esp/beacon_synch/build/include/sdkconfig.h \
+ /home/miquel/esp/ESP32/beacon_synch/build/include/sdkconfig.h \
  /home/miquel/esp/esp-idf/components/newlib/include/stdlib.h \
  /home/miquel/esp/esp-idf/components/newlib/include/machine/stdlib.h \
  /home/miquel/esp/esp-idf/components/newlib/include/alloca.h \
@@ -108,6 +108,7 @@ port/esp32/freertos/sys_arch.o: \
  /home/miquel/esp/esp-idf/components/vfs/include/sys/ioctl.h \
  /home/miquel/esp/esp-idf/components/newlib/platform_include/sys/select.h \
  /home/miquel/esp/esp-idf/components/esp32/include/esp_task.h \
+ /home/miquel/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h \
  /home/miquel/esp/esp-idf/components/lwip/port/esp32/include/netif/dhcp_state.h \
  /home/miquel/esp/esp-idf/components/lwip/lwip/src/include/lwip/def.h \
  /home/miquel/esp/esp-idf/components/lwip/lwip/src/include/lwip/sys.h \
@@ -188,7 +189,7 @@ port/esp32/freertos/sys_arch.o: \
 
 /home/miquel/esp/esp-idf/components/newlib/platform_include/assert.h:
 
-/home/miquel/esp/beacon_synch/build/include/sdkconfig.h:
+/home/miquel/esp/ESP32/beacon_synch/build/include/sdkconfig.h:
 
 /home/miquel/esp/esp-idf/components/newlib/include/stdlib.h:
 
@@ -335,6 +336,8 @@ port/esp32/freertos/sys_arch.o: \
 /home/miquel/esp/esp-idf/components/newlib/platform_include/sys/select.h:
 
 /home/miquel/esp/esp-idf/components/esp32/include/esp_task.h:
+
+/home/miquel/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h:
 
 /home/miquel/esp/esp-idf/components/lwip/port/esp32/include/netif/dhcp_state.h:
 

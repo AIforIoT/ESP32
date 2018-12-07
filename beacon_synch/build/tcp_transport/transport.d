@@ -22,21 +22,21 @@ transport.o: \
  /home/miquel/esp/esp-idf/components/log/include/esp_log.h \
  /home/miquel/esp/esp-idf/components/newlib/include/stdint.h \
  /home/miquel/esp/esp-idf/components/newlib/include/sys/_intsup.h \
- /home/miquel/esp/beacon_synch/build/include/sdkconfig.h \
+ /home/miquel/esp/ESP32/beacon_synch/build/include/sdkconfig.h \
  /home/miquel/esp/esp-idf/components/esp32/include/rom/ets_sys.h \
  /home/miquel/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
  /home/miquel/esp/esp-idf/components/esp32/include/esp_assert.h \
  /home/miquel/esp/esp-idf/components/newlib/platform_include/assert.h \
  /home/miquel/esp/esp-idf/components/newlib/include/assert.h \
  /home/miquel/esp/esp-idf/components/log/include/esp_log_internal.h \
- /home/miquel/esp/esp-idf/components/tcp_transport/include/transport.h \
+ /home/miquel/esp/esp-idf/components/tcp_transport/include/esp_transport.h \
  /home/miquel/esp/esp-idf/components/esp32/include/esp_err.h \
  /home/miquel/esp/esp-idf/components/newlib/include/stdio.h \
  /home/miquel/esp/esp-idf/components/newlib/include/sys/types.h \
  /home/miquel/esp/esp-idf/components/newlib/include/machine/types.h \
  /home/miquel/esp/esp-idf/components/newlib/include/sys/sched.h \
  /home/miquel/esp/esp-idf/components/newlib/include/sys/stdio.h \
- /home/miquel/esp/esp-idf/components/tcp_transport/include/transport_utils.h \
+ /home/miquel/esp/esp-idf/components/tcp_transport/include/esp_transport_utils.h \
  /home/miquel/esp/esp-idf/components/newlib/include/sys/time.h
 
 /home/miquel/esp/esp-idf/components/newlib/include/stdlib.h:
@@ -83,7 +83,7 @@ transport.o: \
 
 /home/miquel/esp/esp-idf/components/newlib/include/sys/_intsup.h:
 
-/home/miquel/esp/beacon_synch/build/include/sdkconfig.h:
+/home/miquel/esp/ESP32/beacon_synch/build/include/sdkconfig.h:
 
 /home/miquel/esp/esp-idf/components/esp32/include/rom/ets_sys.h:
 
@@ -97,7 +97,7 @@ transport.o: \
 
 /home/miquel/esp/esp-idf/components/log/include/esp_log_internal.h:
 
-/home/miquel/esp/esp-idf/components/tcp_transport/include/transport.h:
+/home/miquel/esp/esp-idf/components/tcp_transport/include/esp_transport.h:
 
 /home/miquel/esp/esp-idf/components/esp32/include/esp_err.h:
 
@@ -111,7 +111,7 @@ transport.o: \
 
 /home/miquel/esp/esp-idf/components/newlib/include/sys/stdio.h:
 
-/home/miquel/esp/esp-idf/components/tcp_transport/include/transport_utils.h:
+/home/miquel/esp/esp-idf/components/tcp_transport/include/esp_transport_utils.h:
 
 /home/miquel/esp/esp-idf/components/newlib/include/sys/time.h:
 /home/miquel/esp/esp-idf/components/tcp_transport/./transport.c:

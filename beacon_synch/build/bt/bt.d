@@ -22,7 +22,7 @@ bt.o: /home/miquel/esp/esp-idf/components/bt/bt.c \
  /home/miquel/esp/esp-idf/components/newlib/include/sys/stdio.h \
  /home/miquel/esp/esp-idf/components/newlib/include/string.h \
  /home/miquel/esp/esp-idf/components/newlib/include/sys/string.h \
- /home/miquel/esp/beacon_synch/build/include/sdkconfig.h \
+ /home/miquel/esp/ESP32/beacon_synch/build/include/sdkconfig.h \
  /home/miquel/esp/esp-idf/components/heap/include/esp_heap_caps.h \
  /home/miquel/esp/esp-idf/components/newlib/include/stdint.h \
  /home/miquel/esp/esp-idf/components/newlib/include/sys/_intsup.h \
@@ -87,6 +87,7 @@ bt.o: /home/miquel/esp/esp-idf/components/bt/bt.c \
  /home/miquel/esp/esp-idf/components/freertos/include/freertos/portmacro.h \
  /home/miquel/esp/esp-idf/components/esp32/include/xtensa/core-macros.h \
  /home/miquel/esp/esp-idf/components/esp32/include/esp_task.h \
+ /home/miquel/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h \
  /home/miquel/esp/esp-idf/components/esp32/include/esp_phy_init.h \
  /home/miquel/esp/esp-idf/components/bt/include/esp_bt.h \
  /home/miquel/esp/esp-idf/components/log/include/esp_log.h \
@@ -150,7 +151,7 @@ bt.o: /home/miquel/esp/esp-idf/components/bt/bt.c \
 
 /home/miquel/esp/esp-idf/components/newlib/include/sys/string.h:
 
-/home/miquel/esp/beacon_synch/build/include/sdkconfig.h:
+/home/miquel/esp/ESP32/beacon_synch/build/include/sdkconfig.h:
 
 /home/miquel/esp/esp-idf/components/heap/include/esp_heap_caps.h:
 
@@ -279,6 +280,8 @@ bt.o: /home/miquel/esp/esp-idf/components/bt/bt.c \
 /home/miquel/esp/esp-idf/components/esp32/include/xtensa/core-macros.h:
 
 /home/miquel/esp/esp-idf/components/esp32/include/esp_task.h:
+
+/home/miquel/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h:
 
 /home/miquel/esp/esp-idf/components/esp32/include/esp_phy_init.h:
 

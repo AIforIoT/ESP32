@@ -1,5 +1,5 @@
 intr_alloc.o: /home/miquel/esp/esp-idf/components/esp32/intr_alloc.c \
- /home/miquel/esp/beacon_synch/build/include/sdkconfig.h \
+ /home/miquel/esp/ESP32/beacon_synch/build/include/sdkconfig.h \
  /home/miquel/esp/esp-idf/components/newlib/include/stdint.h \
  /home/miquel/esp/esp-idf/components/newlib/include/machine/_default_types.h \
  /home/miquel/esp/esp-idf/components/newlib/include/sys/features.h \
@@ -81,9 +81,10 @@ intr_alloc.o: /home/miquel/esp/esp-idf/components/esp32/intr_alloc.c \
  /home/miquel/esp/esp-idf/components/newlib/include/limits.h \
  /home/miquel/esp/esp-idf/components/freertos/include/freertos/list.h \
  /home/miquel/esp/esp-idf/components/log/include/esp_log.h \
- /home/miquel/esp/esp-idf/components/log/include/esp_log_internal.h
+ /home/miquel/esp/esp-idf/components/log/include/esp_log_internal.h \
+ /home/miquel/esp/esp-idf/components/esp32/include/esp_ipc.h
 
-/home/miquel/esp/beacon_synch/build/include/sdkconfig.h:
+/home/miquel/esp/ESP32/beacon_synch/build/include/sdkconfig.h:
 
 /home/miquel/esp/esp-idf/components/newlib/include/stdint.h:
 
@@ -248,4 +249,6 @@ intr_alloc.o: /home/miquel/esp/esp-idf/components/esp32/intr_alloc.c \
 /home/miquel/esp/esp-idf/components/log/include/esp_log.h:
 
 /home/miquel/esp/esp-idf/components/log/include/esp_log_internal.h:
+
+/home/miquel/esp/esp-idf/components/esp32/include/esp_ipc.h:
 /home/miquel/esp/esp-idf/components/esp32/./intr_alloc.c:

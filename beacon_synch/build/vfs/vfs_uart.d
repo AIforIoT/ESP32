@@ -36,7 +36,7 @@ vfs_uart.o: /home/miquel/esp/esp-idf/components/vfs/vfs_uart.c \
  /home/miquel/esp/esp-idf/components/newlib/include/sys/unistd.h \
  /home/miquel/esp/esp-idf/components/freertos/include/freertos/FreeRTOS.h \
  /home/miquel/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h \
- /home/miquel/esp/beacon_synch/build/include/sdkconfig.h \
+ /home/miquel/esp/ESP32/beacon_synch/build/include/sdkconfig.h \
  /home/miquel/esp/esp-idf/components/freertos/include/freertos/xtensa_config.h \
  /home/miquel/esp/esp-idf/components/esp32/include/xtensa/hal.h \
  /home/miquel/esp/esp-idf/components/esp32/include/xtensa/config/core.h \
@@ -113,7 +113,7 @@ vfs_uart.o: /home/miquel/esp/esp-idf/components/vfs/vfs_uart.c \
  /home/miquel/esp/esp-idf/components/newlib/include/limits.h \
  /home/miquel/esp/esp-idf/components/freertos/include/freertos/list.h \
  /home/miquel/esp/esp-idf/components/freertos/include/freertos/queue.h \
- /home/miquel/esp/esp-idf/components/freertos/include/freertos/ringbuf.h \
+ /home/miquel/esp/esp-idf/components/esp_ringbuf/include/freertos/ringbuf.h \
  /home/miquel/esp/esp-idf/components/soc/esp32/include/soc/uart_channel.h \
  /home/miquel/esp/esp-idf/components/driver/include/driver/uart_select.h
 
@@ -191,7 +191,7 @@ vfs_uart.o: /home/miquel/esp/esp-idf/components/vfs/vfs_uart.c \
 
 /home/miquel/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h:
 
-/home/miquel/esp/beacon_synch/build/include/sdkconfig.h:
+/home/miquel/esp/ESP32/beacon_synch/build/include/sdkconfig.h:
 
 /home/miquel/esp/esp-idf/components/freertos/include/freertos/xtensa_config.h:
 
@@ -345,7 +345,7 @@ vfs_uart.o: /home/miquel/esp/esp-idf/components/vfs/vfs_uart.c \
 
 /home/miquel/esp/esp-idf/components/freertos/include/freertos/queue.h:
 
-/home/miquel/esp/esp-idf/components/freertos/include/freertos/ringbuf.h:
+/home/miquel/esp/esp-idf/components/esp_ringbuf/include/freertos/ringbuf.h:
 
 /home/miquel/esp/esp-idf/components/soc/esp32/include/soc/uart_channel.h:
 

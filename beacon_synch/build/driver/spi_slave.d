@@ -24,7 +24,7 @@ spi_slave.o: /home/miquel/esp/esp-idf/components/driver/spi_slave.c \
  /home/miquel/esp/esp-idf/components/newlib/include/sys/sched.h \
  /home/miquel/esp/esp-idf/components/newlib/include/sys/stdio.h \
  /home/miquel/esp/esp-idf/components/newlib/platform_include/assert.h \
- /home/miquel/esp/beacon_synch/build/include/sdkconfig.h \
+ /home/miquel/esp/ESP32/beacon_synch/build/include/sdkconfig.h \
  /home/miquel/esp/esp-idf/components/newlib/include/stdlib.h \
  /home/miquel/esp/esp-idf/components/newlib/include/machine/stdlib.h \
  /home/miquel/esp/esp-idf/components/newlib/include/alloca.h \
@@ -100,8 +100,6 @@ spi_slave.o: /home/miquel/esp/esp-idf/components/driver/spi_slave.c \
  /home/miquel/esp/esp-idf/components/freertos/include/freertos/task.h \
  /home/miquel/esp/esp-idf/components/newlib/include/limits.h \
  /home/miquel/esp/esp-idf/components/freertos/include/freertos/list.h \
- /home/miquel/esp/esp-idf/components/freertos/include/freertos/ringbuf.h \
- /home/miquel/esp/esp-idf/components/freertos/include/freertos/queue.h \
  /home/miquel/esp/esp-idf/components/driver/include/driver/periph_ctrl.h
 
 /home/miquel/esp/esp-idf/components/newlib/include/string.h:
@@ -154,7 +152,7 @@ spi_slave.o: /home/miquel/esp/esp-idf/components/driver/spi_slave.c \
 
 /home/miquel/esp/esp-idf/components/newlib/platform_include/assert.h:
 
-/home/miquel/esp/beacon_synch/build/include/sdkconfig.h:
+/home/miquel/esp/ESP32/beacon_synch/build/include/sdkconfig.h:
 
 /home/miquel/esp/esp-idf/components/newlib/include/stdlib.h:
 
@@ -305,10 +303,6 @@ spi_slave.o: /home/miquel/esp/esp-idf/components/driver/spi_slave.c \
 /home/miquel/esp/esp-idf/components/newlib/include/limits.h:
 
 /home/miquel/esp/esp-idf/components/freertos/include/freertos/list.h:
-
-/home/miquel/esp/esp-idf/components/freertos/include/freertos/ringbuf.h:
-
-/home/miquel/esp/esp-idf/components/freertos/include/freertos/queue.h:
 
 /home/miquel/esp/esp-idf/components/driver/include/driver/periph_ctrl.h:
 /home/miquel/esp/esp-idf/components/driver/./spi_slave.c:

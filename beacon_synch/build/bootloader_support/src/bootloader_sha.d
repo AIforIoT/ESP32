@@ -26,7 +26,7 @@ src/bootloader_sha.o: \
  /home/miquel/esp/esp-idf/components/newlib/include/sys/sched.h \
  /home/miquel/esp/esp-idf/components/newlib/include/sys/stdio.h \
  /home/miquel/esp/esp-idf/components/newlib/platform_include/assert.h \
- /home/miquel/esp/beacon_synch/build/include/sdkconfig.h \
+ /home/miquel/esp/ESP32/beacon_synch/build/include/sdkconfig.h \
  /home/miquel/esp/esp-idf/components/newlib/include/assert.h \
  /home/miquel/esp/esp-idf/components/newlib/include/string.h \
  /home/miquel/esp/esp-idf/components/newlib/include/sys/string.h \
@@ -36,6 +36,7 @@ src/bootloader_sha.o: \
  /home/miquel/esp/esp-idf/components/newlib/include/machine/param.h \
  /home/miquel/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/sha256.h \
  /home/miquel/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h \
+ /home/miquel/esp/esp-idf/components/mbedtls/port/include/esp_mem.h \
  /home/miquel/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/check_config.h \
  /home/miquel/esp/esp-idf/components/newlib/include/limits.h
 
@@ -91,7 +92,7 @@ src/bootloader_sha.o: \
 
 /home/miquel/esp/esp-idf/components/newlib/platform_include/assert.h:
 
-/home/miquel/esp/beacon_synch/build/include/sdkconfig.h:
+/home/miquel/esp/ESP32/beacon_synch/build/include/sdkconfig.h:
 
 /home/miquel/esp/esp-idf/components/newlib/include/assert.h:
 
@@ -110,6 +111,8 @@ src/bootloader_sha.o: \
 /home/miquel/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/sha256.h:
 
 /home/miquel/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h:
+
+/home/miquel/esp/esp-idf/components/mbedtls/port/include/esp_mem.h:
 
 /home/miquel/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/check_config.h:
 

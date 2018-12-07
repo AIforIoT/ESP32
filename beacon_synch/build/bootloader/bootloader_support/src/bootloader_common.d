@@ -1,6 +1,6 @@
 src/bootloader_common.o: \
  /home/miquel/esp/esp-idf/components/bootloader_support/src/bootloader_common.c \
- /home/miquel/esp/esp-idf/examples/wifi/getting_started/station/build/bootloader/../include/sdkconfig.h \
+ /home/miquel/esp/ESP32/beacon_synch/build/bootloader/../include/sdkconfig.h \
  /home/miquel/esp/esp-idf/components/esp32/include/esp_err.h \
  /home/miquel/esp/esp-idf/components/log/include/esp_log.h \
  /home/miquel/esp/esp-idf/components/esp32/include/rom/ets_sys.h \
@@ -28,7 +28,7 @@ src/bootloader_common.o: \
  /home/miquel/esp/esp-idf/components/bootloader_support/include/esp_flash_partitions.h \
  /home/miquel/esp/esp-idf/components/bootloader_support/include_bootloader/bootloader_sha.h
 
-/home/miquel/esp/esp-idf/examples/wifi/getting_started/station/build/bootloader/../include/sdkconfig.h:
+/home/miquel/esp/ESP32/beacon_synch/build/bootloader/../include/sdkconfig.h:
 
 /home/miquel/esp/esp-idf/components/esp32/include/esp_err.h:
 

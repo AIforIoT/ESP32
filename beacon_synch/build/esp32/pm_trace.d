@@ -1,6 +1,6 @@
 pm_trace.o: /home/miquel/esp/esp-idf/components/esp32/pm_trace.c \
  /home/miquel/esp/esp-idf/components/esp32/pm_trace.h \
- /home/miquel/esp/beacon_synch/build/include/sdkconfig.h \
+ /home/miquel/esp/ESP32/beacon_synch/build/include/sdkconfig.h \
  /home/miquel/esp/esp-idf/components/driver/include/driver/gpio.h \
  /home/miquel/esp/esp-idf/components/esp32/include/esp_err.h \
  /home/miquel/esp/esp-idf/components/newlib/include/stdint.h \
@@ -44,7 +44,7 @@ pm_trace.o: /home/miquel/esp/esp-idf/components/esp32/pm_trace.c \
 
 /home/miquel/esp/esp-idf/components/esp32/pm_trace.h:
 
-/home/miquel/esp/beacon_synch/build/include/sdkconfig.h:
+/home/miquel/esp/ESP32/beacon_synch/build/include/sdkconfig.h:
 
 /home/miquel/esp/esp-idf/components/driver/include/driver/gpio.h:
 

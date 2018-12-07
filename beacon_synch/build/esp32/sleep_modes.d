@@ -27,7 +27,7 @@ sleep_modes.o: /home/miquel/esp/esp-idf/components/esp32/sleep_modes.c \
  /home/miquel/esp/esp-idf/components/newlib/include/sys/sched.h \
  /home/miquel/esp/esp-idf/components/newlib/include/sys/stdio.h \
  /home/miquel/esp/esp-idf/components/newlib/platform_include/assert.h \
- /home/miquel/esp/beacon_synch/build/include/sdkconfig.h \
+ /home/miquel/esp/ESP32/beacon_synch/build/include/sdkconfig.h \
  /home/miquel/esp/esp-idf/components/newlib/include/stdlib.h \
  /home/miquel/esp/esp-idf/components/newlib/include/machine/stdlib.h \
  /home/miquel/esp/esp-idf/components/newlib/include/alloca.h \
@@ -114,7 +114,7 @@ sleep_modes.o: /home/miquel/esp/esp-idf/components/esp32/sleep_modes.c \
  /home/miquel/esp/esp-idf/components/newlib/include/limits.h \
  /home/miquel/esp/esp-idf/components/freertos/include/freertos/list.h \
  /home/miquel/esp/esp-idf/components/freertos/include/freertos/queue.h \
- /home/miquel/esp/esp-idf/components/freertos/include/freertos/ringbuf.h \
+ /home/miquel/esp/esp-idf/components/esp_ringbuf/include/freertos/ringbuf.h \
  /home/miquel/esp/esp-idf/components/soc/esp32/include/soc/uart_channel.h
 
 /home/miquel/esp/esp-idf/components/newlib/include/sys/lock.h:
@@ -173,7 +173,7 @@ sleep_modes.o: /home/miquel/esp/esp-idf/components/esp32/sleep_modes.c \
 
 /home/miquel/esp/esp-idf/components/newlib/platform_include/assert.h:
 
-/home/miquel/esp/beacon_synch/build/include/sdkconfig.h:
+/home/miquel/esp/ESP32/beacon_synch/build/include/sdkconfig.h:
 
 /home/miquel/esp/esp-idf/components/newlib/include/stdlib.h:
 
@@ -347,7 +347,7 @@ sleep_modes.o: /home/miquel/esp/esp-idf/components/esp32/sleep_modes.c \
 
 /home/miquel/esp/esp-idf/components/freertos/include/freertos/queue.h:
 
-/home/miquel/esp/esp-idf/components/freertos/include/freertos/ringbuf.h:
+/home/miquel/esp/esp-idf/components/esp_ringbuf/include/freertos/ringbuf.h:
 
 /home/miquel/esp/esp-idf/components/soc/esp32/include/soc/uart_channel.h:
 /home/miquel/esp/esp-idf/components/esp32/./sleep_modes.c:

@@ -6,7 +6,7 @@ src/nvs_api.o: \
  /home/miquel/esp/esp-idf/components/newlib/include/stdio.h \
  /home/miquel/esp/esp-idf/components/newlib/include/sys/stdio.h \
  /home/miquel/esp/esp-idf/components/newlib/platform_include/assert.h \
- /home/miquel/esp/beacon_synch/build/include/sdkconfig.h \
+ /home/miquel/esp/ESP32/beacon_synch/build/include/sdkconfig.h \
  /home/miquel/esp/esp-idf/components/newlib/include/stdlib.h \
  /home/miquel/esp/esp-idf/components/newlib/include/machine/stdlib.h \
  /home/miquel/esp/esp-idf/components/newlib/include/alloca.h \
@@ -21,6 +21,8 @@ src/nvs_api.o: \
  /home/miquel/esp/esp-idf/components/nvs_flash/src/nvs_storage.hpp \
  /home/miquel/esp/esp-idf/components/nvs_flash/include/nvs_flash.h \
  /home/miquel/esp/esp-idf/components/nvs_flash/include/nvs.h \
+ /home/miquel/esp/esp-idf/components/spi_flash/include/esp_partition.h \
+ /home/miquel/esp/esp-idf/components/spi_flash/include/esp_spi_flash.h \
  /home/miquel/esp/esp-idf/components/nvs_flash/src/nvs_platform.hpp \
  /home/miquel/esp/esp-idf/components/freertos/include/freertos/FreeRTOS.h \
  /home/miquel/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h \
@@ -73,8 +75,7 @@ src/nvs_api.o: \
  /home/miquel/esp/esp-idf/components/soc/esp32/include/soc/touch_channel.h \
  /home/miquel/esp/esp-idf/components/freertos/include/freertos/semphr.h \
  /home/miquel/esp/esp-idf/components/freertos/include/freertos/queue.h \
- /home/miquel/esp/esp-idf/components/spi_flash/include/esp_partition.h \
- /home/miquel/esp/esp-idf/components/spi_flash/include/esp_spi_flash.h \
+ /home/miquel/esp/esp-idf/components/esp32/include/rom/crc.h \
  /home/miquel/esp/esp-idf/components/log/include/esp_log.h \
  /home/miquel/esp/esp-idf/components/log/include/esp_log_internal.h
 
@@ -90,7 +91,7 @@ src/nvs_api.o: \
 
 /home/miquel/esp/esp-idf/components/newlib/platform_include/assert.h:
 
-/home/miquel/esp/beacon_synch/build/include/sdkconfig.h:
+/home/miquel/esp/ESP32/beacon_synch/build/include/sdkconfig.h:
 
 /home/miquel/esp/esp-idf/components/newlib/include/stdlib.h:
 
@@ -119,6 +120,10 @@ src/nvs_api.o: \
 /home/miquel/esp/esp-idf/components/nvs_flash/include/nvs_flash.h:
 
 /home/miquel/esp/esp-idf/components/nvs_flash/include/nvs.h:
+
+/home/miquel/esp/esp-idf/components/spi_flash/include/esp_partition.h:
+
+/home/miquel/esp/esp-idf/components/spi_flash/include/esp_spi_flash.h:
 
 /home/miquel/esp/esp-idf/components/nvs_flash/src/nvs_platform.hpp:
 
@@ -224,9 +229,7 @@ src/nvs_api.o: \
 
 /home/miquel/esp/esp-idf/components/freertos/include/freertos/queue.h:
 
-/home/miquel/esp/esp-idf/components/spi_flash/include/esp_partition.h:
-
-/home/miquel/esp/esp-idf/components/spi_flash/include/esp_spi_flash.h:
+/home/miquel/esp/esp-idf/components/esp32/include/rom/crc.h:
 
 /home/miquel/esp/esp-idf/components/log/include/esp_log.h:
 

@@ -20,7 +20,7 @@ spiram.o: /home/miquel/esp/esp-idf/components/esp32/spiram.c \
  /home/miquel/esp/esp-idf/components/newlib/include/sys/syslimits.h \
  /home/miquel/esp/esp-idf/components/newlib/include/machine/endian.h \
  /home/miquel/esp/esp-idf/components/newlib/include/machine/param.h \
- /home/miquel/esp/beacon_synch/build/include/sdkconfig.h \
+ /home/miquel/esp/ESP32/beacon_synch/build/include/sdkconfig.h \
  /home/miquel/esp/esp-idf/components/esp32/include/esp_attr.h \
  /home/miquel/esp/esp-idf/components/esp32/include/esp_err.h \
  /home/miquel/esp/esp-idf/components/newlib/include/stdio.h \
@@ -92,7 +92,8 @@ spiram.o: /home/miquel/esp/esp-idf/components/esp32/spiram.c \
  /home/miquel/esp/esp-idf/components/esp32/include/esp_dport_access.h \
  /home/miquel/esp/esp-idf/components/soc/esp32/include/soc/uart_reg.h \
  /home/miquel/esp/esp-idf/components/esp32/include/rom/cache.h \
- /home/miquel/esp/esp-idf/components/soc/esp32/include/soc/dport_access.h
+ /home/miquel/esp/esp-idf/components/soc/esp32/include/soc/dport_access.h \
+ /home/miquel/esp/esp-idf/components/esp32/include/esp_himem.h
 
 /home/miquel/esp/esp-idf/components/newlib/include/stdint.h:
 
@@ -136,7 +137,7 @@ spiram.o: /home/miquel/esp/esp-idf/components/esp32/spiram.c \
 
 /home/miquel/esp/esp-idf/components/newlib/include/machine/param.h:
 
-/home/miquel/esp/beacon_synch/build/include/sdkconfig.h:
+/home/miquel/esp/ESP32/beacon_synch/build/include/sdkconfig.h:
 
 /home/miquel/esp/esp-idf/components/esp32/include/esp_attr.h:
 
@@ -281,4 +282,6 @@ spiram.o: /home/miquel/esp/esp-idf/components/esp32/spiram.c \
 /home/miquel/esp/esp-idf/components/esp32/include/rom/cache.h:
 
 /home/miquel/esp/esp-idf/components/soc/esp32/include/soc/dport_access.h:
+
+/home/miquel/esp/esp-idf/components/esp32/include/esp_himem.h:
 /home/miquel/esp/esp-idf/components/esp32/./spiram.c:

@@ -25,11 +25,11 @@ lib/http_utils.o: \
  /home/miquel/esp/esp-idf/components/newlib/include/sys/sched.h \
  /home/miquel/esp/esp-idf/components/newlib/include/sys/stdio.h \
  /home/miquel/esp/esp-idf/components/newlib/platform_include/assert.h \
- /home/miquel/esp/beacon_synch/build/include/sdkconfig.h \
+ /home/miquel/esp/ESP32/beacon_synch/build/include/sdkconfig.h \
  /home/miquel/esp/esp-idf/components/newlib/include/assert.h \
  /home/miquel/esp/esp-idf/components/esp_http_client/lib/include/http_utils.h \
  /home/miquel/esp/esp-idf/components/newlib/include/sys/time.h \
- /home/miquel/esp/esp-idf/components/tcp_transport/include/transport_utils.h
+ /home/miquel/esp/esp-idf/components/tcp_transport/include/esp_transport_utils.h
 
 /home/miquel/esp/esp-idf/components/newlib/include/string.h:
 
@@ -81,7 +81,7 @@ lib/http_utils.o: \
 
 /home/miquel/esp/esp-idf/components/newlib/platform_include/assert.h:
 
-/home/miquel/esp/beacon_synch/build/include/sdkconfig.h:
+/home/miquel/esp/ESP32/beacon_synch/build/include/sdkconfig.h:
 
 /home/miquel/esp/esp-idf/components/newlib/include/assert.h:
 
@@ -89,5 +89,5 @@ lib/http_utils.o: \
 
 /home/miquel/esp/esp-idf/components/newlib/include/sys/time.h:
 
-/home/miquel/esp/esp-idf/components/tcp_transport/include/transport_utils.h:
+/home/miquel/esp/esp-idf/components/tcp_transport/include/esp_transport_utils.h:
 /home/miquel/esp/esp-idf/components/esp_http_client/lib/http_utils.c:

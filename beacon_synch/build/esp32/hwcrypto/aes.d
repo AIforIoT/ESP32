@@ -16,7 +16,11 @@ hwcrypto/aes.o: /home/miquel/esp/esp-idf/components/esp32/hwcrypto/aes.c \
  /home/miquel/esp/esp-idf/components/newlib/include/sys/string.h \
  /home/miquel/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/aes.h \
  /home/miquel/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h \
- /home/miquel/esp/beacon_synch/build/include/sdkconfig.h \
+ /home/miquel/esp/ESP32/beacon_synch/build/include/sdkconfig.h \
+ /home/miquel/esp/esp-idf/components/mbedtls/port/include/esp_mem.h \
+ /home/miquel/esp/esp-idf/components/newlib/include/stdlib.h \
+ /home/miquel/esp/esp-idf/components/newlib/include/machine/stdlib.h \
+ /home/miquel/esp/esp-idf/components/newlib/include/alloca.h \
  /home/miquel/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/check_config.h \
  /home/miquel/esp/esp-idf/components/newlib/include/limits.h \
  /home/miquel/esp/esp-idf/components/newlib/include/stdint.h \
@@ -29,9 +33,6 @@ hwcrypto/aes.o: /home/miquel/esp/esp-idf/components/esp32/hwcrypto/aes.c \
  /home/miquel/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
  /home/miquel/esp/esp-idf/components/esp32/include/esp_assert.h \
  /home/miquel/esp/esp-idf/components/newlib/platform_include/assert.h \
- /home/miquel/esp/esp-idf/components/newlib/include/stdlib.h \
- /home/miquel/esp/esp-idf/components/newlib/include/machine/stdlib.h \
- /home/miquel/esp/esp-idf/components/newlib/include/alloca.h \
  /home/miquel/esp/esp-idf/components/newlib/include/assert.h \
  /home/miquel/esp/esp-idf/components/soc/esp32/include/soc/dport_access.h \
  /home/miquel/esp/esp-idf/components/esp32/include/esp_attr.h \
@@ -125,7 +126,15 @@ hwcrypto/aes.o: /home/miquel/esp/esp-idf/components/esp32/hwcrypto/aes.c \
 
 /home/miquel/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h:
 
-/home/miquel/esp/beacon_synch/build/include/sdkconfig.h:
+/home/miquel/esp/ESP32/beacon_synch/build/include/sdkconfig.h:
+
+/home/miquel/esp/esp-idf/components/mbedtls/port/include/esp_mem.h:
+
+/home/miquel/esp/esp-idf/components/newlib/include/stdlib.h:
+
+/home/miquel/esp/esp-idf/components/newlib/include/machine/stdlib.h:
+
+/home/miquel/esp/esp-idf/components/newlib/include/alloca.h:
 
 /home/miquel/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/check_config.h:
 
@@ -150,12 +159,6 @@ hwcrypto/aes.o: /home/miquel/esp/esp-idf/components/esp32/hwcrypto/aes.c \
 /home/miquel/esp/esp-idf/components/esp32/include/esp_assert.h:
 
 /home/miquel/esp/esp-idf/components/newlib/platform_include/assert.h:
-
-/home/miquel/esp/esp-idf/components/newlib/include/stdlib.h:
-
-/home/miquel/esp/esp-idf/components/newlib/include/machine/stdlib.h:
-
-/home/miquel/esp/esp-idf/components/newlib/include/alloca.h:
 
 /home/miquel/esp/esp-idf/components/newlib/include/assert.h:
 

@@ -11,7 +11,7 @@ src/ffunicode.o: \
  /home/miquel/esp/esp-idf/components/newlib/include/sys/syslimits.h \
  /home/miquel/esp/esp-idf/components/newlib/include/machine/endian.h \
  /home/miquel/esp/esp-idf/components/newlib/include/machine/param.h \
- /home/miquel/esp/beacon_synch/build/include/sdkconfig.h \
+ /home/miquel/esp/ESP32/beacon_synch/build/include/sdkconfig.h \
  /home/miquel/esp/esp-idf/components/freertos/include/freertos/FreeRTOS.h \
  /home/miquel/esp/esp-idf/components/newlib/include/sys/reent.h \
  /home/miquel/esp/esp-idf/components/newlib/include/_ansi.h \
@@ -108,7 +108,7 @@ src/ffunicode.o: \
 
 /home/miquel/esp/esp-idf/components/newlib/include/machine/param.h:
 
-/home/miquel/esp/beacon_synch/build/include/sdkconfig.h:
+/home/miquel/esp/ESP32/beacon_synch/build/include/sdkconfig.h:
 
 /home/miquel/esp/esp-idf/components/freertos/include/freertos/FreeRTOS.h:
 

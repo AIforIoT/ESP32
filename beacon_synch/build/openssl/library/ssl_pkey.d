@@ -9,7 +9,7 @@ library/ssl_pkey.o: \
  /home/miquel/esp/esp-idf/components/openssl/include/internal/ssl_methods.h \
  /home/miquel/esp/esp-idf/components/openssl/include/internal/ssl_dbg.h \
  /home/miquel/esp/esp-idf/components/openssl/include/platform/ssl_opt.h \
- /home/miquel/esp/beacon_synch/build/include/sdkconfig.h \
+ /home/miquel/esp/ESP32/beacon_synch/build/include/sdkconfig.h \
  /home/miquel/esp/esp-idf/components/openssl/include/platform/ssl_port.h \
  /home/miquel/esp/esp-idf/components/esp32/include/esp_types.h \
  /home/miquel/esp/esp-idf/components/newlib/include/sys/cdefs.h \
@@ -61,7 +61,7 @@ library/ssl_pkey.o: \
 
 /home/miquel/esp/esp-idf/components/openssl/include/platform/ssl_opt.h:
 
-/home/miquel/esp/beacon_synch/build/include/sdkconfig.h:
+/home/miquel/esp/ESP32/beacon_synch/build/include/sdkconfig.h:
 
 /home/miquel/esp/esp-idf/components/openssl/include/platform/ssl_port.h:
 

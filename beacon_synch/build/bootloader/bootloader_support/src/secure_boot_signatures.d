@@ -1,6 +1,6 @@
 src/secure_boot_signatures.o: \
  /home/miquel/esp/esp-idf/components/bootloader_support/src/secure_boot_signatures.c \
- /home/miquel/esp/esp-idf/examples/wifi/getting_started/station/build/bootloader/../include/sdkconfig.h \
+ /home/miquel/esp/ESP32/beacon_synch/build/bootloader/../include/sdkconfig.h \
  /home/miquel/esp/esp-idf/components/bootloader_support/include_bootloader/bootloader_flash.h \
  /home/miquel/esp/esp-idf/components/esp32/include/esp_err.h \
  /home/miquel/esp/esp-idf/components/spi_flash/include/esp_spi_flash.h \
@@ -19,7 +19,7 @@ src/secure_boot_signatures.o: \
  /home/miquel/esp/esp-idf/components/micro-ecc/micro-ecc/uECC.h \
  /home/miquel/esp/esp-idf/components/esp32/include/rom/sha.h
 
-/home/miquel/esp/esp-idf/examples/wifi/getting_started/station/build/bootloader/../include/sdkconfig.h:
+/home/miquel/esp/ESP32/beacon_synch/build/bootloader/../include/sdkconfig.h:
 
 /home/miquel/esp/esp-idf/components/bootloader_support/include_bootloader/bootloader_flash.h:
 

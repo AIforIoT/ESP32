@@ -1,4 +1,4 @@
-synch_beacon.o: /home/miquel/esp/beacon_synch/main/synch_beacon.c \
+synch_beacon.o: /home/miquel/esp/ESP32/beacon_synch/main/synch_beacon.c \
  /home/miquel/esp/esp-idf/components/newlib/include/string.h \
  /home/miquel/esp/esp-idf/components/newlib/include/_ansi.h \
  /home/miquel/esp/esp-idf/components/newlib/include/newlib.h \
@@ -14,11 +14,12 @@ synch_beacon.o: /home/miquel/esp/beacon_synch/main/synch_beacon.c \
  /home/miquel/esp/esp-idf/components/newlib/include/sys/lock.h \
  /home/miquel/esp/esp-idf/components/newlib/include/sys/cdefs.h \
  /home/miquel/esp/esp-idf/components/newlib/include/sys/string.h \
+ /home/miquel/esp/ESP32/beacon_synch/main/micro_handler.h \
  /home/miquel/esp/esp-idf/components/freertos/include/freertos/FreeRTOS.h \
  /home/miquel/esp/esp-idf/components/newlib/include/stdint.h \
  /home/miquel/esp/esp-idf/components/newlib/include/sys/_intsup.h \
  /home/miquel/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h \
- /home/miquel/esp/beacon_synch/build/include/sdkconfig.h \
+ /home/miquel/esp/ESP32/beacon_synch/build/include/sdkconfig.h \
  /home/miquel/esp/esp-idf/components/freertos/include/freertos/xtensa_config.h \
  /home/miquel/esp/esp-idf/components/esp32/include/xtensa/hal.h \
  /home/miquel/esp/esp-idf/components/esp32/include/xtensa/config/core.h \
@@ -80,6 +81,9 @@ synch_beacon.o: /home/miquel/esp/beacon_synch/main/synch_beacon.c \
  /home/miquel/esp/esp-idf/components/freertos/include/freertos/task.h \
  /home/miquel/esp/esp-idf/components/newlib/include/limits.h \
  /home/miquel/esp/esp-idf/components/freertos/include/freertos/list.h \
+ /home/miquel/esp/esp-idf/components/log/include/esp_log.h \
+ /home/miquel/esp/esp-idf/components/log/include/esp_log_internal.h \
+ /home/miquel/esp/ESP32/beacon_synch/main/synch_beacon.h \
  /home/miquel/esp/esp-idf/components/freertos/include/freertos/event_groups.h \
  /home/miquel/esp/esp-idf/components/freertos/include/freertos/timers.h \
  /home/miquel/esp/esp-idf/components/freertos/include/freertos/task.h \
@@ -90,7 +94,11 @@ synch_beacon.o: /home/miquel/esp/beacon_synch/main/synch_beacon.c \
  /home/miquel/esp/esp-idf/components/esp32/include/esp_wifi_types.h \
  /home/miquel/esp/esp-idf/components/esp32/include/esp_interface.h \
  /home/miquel/esp/esp-idf/components/esp32/include/esp_wifi_crypto_types.h \
- /home/miquel/esp/esp-idf/components/esp32/include/esp_event.h \
+ /home/miquel/esp/esp-idf/components/esp_event/include/esp_event.h \
+ /home/miquel/esp/esp-idf/components/freertos/include/freertos/semphr.h \
+ /home/miquel/esp/esp-idf/components/freertos/include/freertos/queue.h \
+ /home/miquel/esp/esp-idf/components/esp_event/include/esp_event_base.h \
+ /home/miquel/esp/esp-idf/components/esp32/include/esp_event_legacy.h \
  /home/miquel/esp/esp-idf/components/tcpip_adapter/include/tcpip_adapter.h \
  /home/miquel/esp/esp-idf/components/esp32/include/rom/queue.h \
  /home/miquel/esp/esp-idf/components/esp32/include/esp_wifi_types.h \
@@ -110,6 +118,7 @@ synch_beacon.o: /home/miquel/esp/beacon_synch/main/synch_beacon.c \
  /home/miquel/esp/esp-idf/components/vfs/include/sys/ioctl.h \
  /home/miquel/esp/esp-idf/components/newlib/platform_include/sys/select.h \
  /home/miquel/esp/esp-idf/components/esp32/include/esp_task.h \
+ /home/miquel/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h \
  /home/miquel/esp/esp-idf/components/lwip/port/esp32/include/netif/dhcp_state.h \
  /home/miquel/esp/esp-idf/components/lwip/lwip/src/include/lwip/debug.h \
  /home/miquel/esp/esp-idf/components/lwip/lwip/src/include/lwip/arch.h \
@@ -118,8 +127,6 @@ synch_beacon.o: /home/miquel/esp/beacon_synch/main/synch_beacon.c \
  /home/miquel/esp/esp-idf/components/newlib/include/errno.h \
  /home/miquel/esp/esp-idf/components/newlib/include/sys/errno.h \
  /home/miquel/esp/esp-idf/components/lwip/port/esp32/include/arch/sys_arch.h \
- /home/miquel/esp/esp-idf/components/freertos/include/freertos/semphr.h \
- /home/miquel/esp/esp-idf/components/freertos/include/freertos/queue.h \
  /home/miquel/esp/esp-idf/components/lwip/port/esp32/include/arch/vfs_lwip.h \
  /home/miquel/esp/esp-idf/components/newlib/include/inttypes.h \
  /home/miquel/esp/esp-idf/components/lwip/lwip/src/include/lwip/def.h \
@@ -129,12 +136,13 @@ synch_beacon.o: /home/miquel/esp/beacon_synch/main/synch_beacon.c \
  /home/miquel/esp/esp-idf/components/lwip/include/apps/dhcpserver/dhcpserver.h \
  /home/miquel/esp/esp-idf/components/esp32/include/esp_wifi_os_adapter.h \
  /home/miquel/esp/esp-idf/components/esp32/include/esp_event_loop.h \
- /home/miquel/esp/esp-idf/components/log/include/esp_log.h \
- /home/miquel/esp/esp-idf/components/log/include/esp_log_internal.h \
  /home/miquel/esp/esp-idf/components/nvs_flash/include/nvs_flash.h \
  /home/miquel/esp/esp-idf/components/nvs_flash/include/nvs.h \
+ /home/miquel/esp/esp-idf/components/spi_flash/include/esp_partition.h \
+ /home/miquel/esp/esp-idf/components/spi_flash/include/esp_spi_flash.h \
  /home/miquel/esp/esp-idf/components/lwip/lwip/src/include/lwip/err.h \
- /home/miquel/esp/esp-idf/components/lwip/lwip/src/include/lwip/sys.h
+ /home/miquel/esp/esp-idf/components/lwip/lwip/src/include/lwip/sys.h \
+ /home/miquel/esp/esp-idf/components/esp32/include/xtensa/core-macros.h
 
 /home/miquel/esp/esp-idf/components/newlib/include/string.h:
 
@@ -166,6 +174,8 @@ synch_beacon.o: /home/miquel/esp/beacon_synch/main/synch_beacon.c \
 
 /home/miquel/esp/esp-idf/components/newlib/include/sys/string.h:
 
+/home/miquel/esp/ESP32/beacon_synch/main/micro_handler.h:
+
 /home/miquel/esp/esp-idf/components/freertos/include/freertos/FreeRTOS.h:
 
 /home/miquel/esp/esp-idf/components/newlib/include/stdint.h:
@@ -174,7 +184,7 @@ synch_beacon.o: /home/miquel/esp/beacon_synch/main/synch_beacon.c \
 
 /home/miquel/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h:
 
-/home/miquel/esp/beacon_synch/build/include/sdkconfig.h:
+/home/miquel/esp/ESP32/beacon_synch/build/include/sdkconfig.h:
 
 /home/miquel/esp/esp-idf/components/freertos/include/freertos/xtensa_config.h:
 
@@ -298,6 +308,12 @@ synch_beacon.o: /home/miquel/esp/beacon_synch/main/synch_beacon.c \
 
 /home/miquel/esp/esp-idf/components/freertos/include/freertos/list.h:
 
+/home/miquel/esp/esp-idf/components/log/include/esp_log.h:
+
+/home/miquel/esp/esp-idf/components/log/include/esp_log_internal.h:
+
+/home/miquel/esp/ESP32/beacon_synch/main/synch_beacon.h:
+
 /home/miquel/esp/esp-idf/components/freertos/include/freertos/event_groups.h:
 
 /home/miquel/esp/esp-idf/components/freertos/include/freertos/timers.h:
@@ -318,7 +334,15 @@ synch_beacon.o: /home/miquel/esp/beacon_synch/main/synch_beacon.c \
 
 /home/miquel/esp/esp-idf/components/esp32/include/esp_wifi_crypto_types.h:
 
-/home/miquel/esp/esp-idf/components/esp32/include/esp_event.h:
+/home/miquel/esp/esp-idf/components/esp_event/include/esp_event.h:
+
+/home/miquel/esp/esp-idf/components/freertos/include/freertos/semphr.h:
+
+/home/miquel/esp/esp-idf/components/freertos/include/freertos/queue.h:
+
+/home/miquel/esp/esp-idf/components/esp_event/include/esp_event_base.h:
+
+/home/miquel/esp/esp-idf/components/esp32/include/esp_event_legacy.h:
 
 /home/miquel/esp/esp-idf/components/tcpip_adapter/include/tcpip_adapter.h:
 
@@ -358,6 +382,8 @@ synch_beacon.o: /home/miquel/esp/beacon_synch/main/synch_beacon.c \
 
 /home/miquel/esp/esp-idf/components/esp32/include/esp_task.h:
 
+/home/miquel/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h:
+
 /home/miquel/esp/esp-idf/components/lwip/port/esp32/include/netif/dhcp_state.h:
 
 /home/miquel/esp/esp-idf/components/lwip/lwip/src/include/lwip/debug.h:
@@ -373,10 +399,6 @@ synch_beacon.o: /home/miquel/esp/beacon_synch/main/synch_beacon.c \
 /home/miquel/esp/esp-idf/components/newlib/include/sys/errno.h:
 
 /home/miquel/esp/esp-idf/components/lwip/port/esp32/include/arch/sys_arch.h:
-
-/home/miquel/esp/esp-idf/components/freertos/include/freertos/semphr.h:
-
-/home/miquel/esp/esp-idf/components/freertos/include/freertos/queue.h:
 
 /home/miquel/esp/esp-idf/components/lwip/port/esp32/include/arch/vfs_lwip.h:
 
@@ -396,15 +418,17 @@ synch_beacon.o: /home/miquel/esp/beacon_synch/main/synch_beacon.c \
 
 /home/miquel/esp/esp-idf/components/esp32/include/esp_event_loop.h:
 
-/home/miquel/esp/esp-idf/components/log/include/esp_log.h:
-
-/home/miquel/esp/esp-idf/components/log/include/esp_log_internal.h:
-
 /home/miquel/esp/esp-idf/components/nvs_flash/include/nvs_flash.h:
 
 /home/miquel/esp/esp-idf/components/nvs_flash/include/nvs.h:
 
+/home/miquel/esp/esp-idf/components/spi_flash/include/esp_partition.h:
+
+/home/miquel/esp/esp-idf/components/spi_flash/include/esp_spi_flash.h:
+
 /home/miquel/esp/esp-idf/components/lwip/lwip/src/include/lwip/err.h:
 
 /home/miquel/esp/esp-idf/components/lwip/lwip/src/include/lwip/sys.h:
-/home/miquel/esp/beacon_synch/main/./synch_beacon.c:
+
+/home/miquel/esp/esp-idf/components/esp32/include/xtensa/core-macros.h:
+/home/miquel/esp/ESP32/beacon_synch/main/./synch_beacon.c:

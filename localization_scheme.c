@@ -68,7 +68,7 @@ static esp_err_t event_handler(void *ctx, system_event_t *event)
     printf( "event_handler starting.\n");
     switch(event->event_id) {
     case SYSTEM_EVENT_STA_START:
-        //esp_wifi_connect();
+        esp_wifi_connect();
         break;
     case SYSTEM_EVENT_STA_GOT_IP:
         printf( "Got ip:%s !! \n", ip4addr_ntoa(&event->event_info.got_ip.ip_info.ip));
@@ -146,6 +146,14 @@ const char *wifi_sniffer_packet_type2str(wifi_vendor_ie_type_t type)
 
 void wifi_sniffer_packet_handler(void* buff, wifi_vendor_ie_type_t type)
 {
+    /*
+        typedef struct {
+            wifi_pkt_rx_ctrl_t rx_ctrl; < metadata header 
+            uint8_t payload[0]; < Data or management payload. Length of payload is described by
+                                    rx_ctrl.sig_len. Type of content determined by packet type 
+                                    argument of callback.
+        } wifi_promiscuous_pkt_t;
+    */
     const wifi_promiscuous_pkt_t *ppkt = (wifi_promiscuous_pkt_t *)buff;
     const wifi_ieee80211_packet_t *ipkt = (wifi_ieee80211_packet_t *)ppkt->payload;
     const wifi_ieee80211_mac_hdr_t *hdr = &ipkt->hdr;

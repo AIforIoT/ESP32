@@ -24,7 +24,7 @@ cpu_start.o: /home/miquel/esp/esp-idf/components/esp32/cpu_start.c \
  /home/miquel/esp/esp-idf/components/newlib/include/sys/sched.h \
  /home/miquel/esp/esp-idf/components/newlib/include/sys/stdio.h \
  /home/miquel/esp/esp-idf/components/newlib/platform_include/assert.h \
- /home/miquel/esp/beacon_synch/build/include/sdkconfig.h \
+ /home/miquel/esp/ESP32/beacon_synch/build/include/sdkconfig.h \
  /home/miquel/esp/esp-idf/components/newlib/include/stdlib.h \
  /home/miquel/esp/esp-idf/components/newlib/include/machine/stdlib.h \
  /home/miquel/esp/esp-idf/components/newlib/include/alloca.h \
@@ -60,6 +60,7 @@ cpu_start.o: /home/miquel/esp/esp-idf/components/esp32/cpu_start.c \
  /home/miquel/esp/esp-idf/components/soc/esp32/include/soc/rtc_cntl_reg.h \
  /home/miquel/esp/esp-idf/components/soc/esp32/include/soc/timer_group_reg.h \
  /home/miquel/esp/esp-idf/components/soc/include/soc/rtc_wdt.h \
+ /home/miquel/esp/esp-idf/components/soc/esp32/include/soc/efuse_reg.h \
  /home/miquel/esp/esp-idf/components/driver/include/driver/rtc_io.h \
  /home/miquel/esp/esp-idf/components/driver/include/driver/gpio.h \
  /home/miquel/esp/esp-idf/components/soc/esp32/include/soc/gpio_reg.h \
@@ -106,7 +107,11 @@ cpu_start.o: /home/miquel/esp/esp-idf/components/esp32/cpu_start.c \
  /home/miquel/esp/esp-idf/components/spi_flash/include/esp_spi_flash.h \
  /home/miquel/esp/esp-idf/components/nvs_flash/include/nvs_flash.h \
  /home/miquel/esp/esp-idf/components/nvs_flash/include/nvs.h \
- /home/miquel/esp/esp-idf/components/esp32/include/esp_event.h \
+ /home/miquel/esp/esp-idf/components/spi_flash/include/esp_partition.h \
+ /home/miquel/esp/esp-idf/components/spi_flash/include/esp_spi_flash.h \
+ /home/miquel/esp/esp-idf/components/esp_event/include/esp_event.h \
+ /home/miquel/esp/esp-idf/components/esp_event/include/esp_event_base.h \
+ /home/miquel/esp/esp-idf/components/esp32/include/esp_event_legacy.h \
  /home/miquel/esp/esp-idf/components/esp32/include/esp_wifi_types.h \
  /home/miquel/esp/esp-idf/components/esp32/include/rom/queue.h \
  /home/miquel/esp/esp-idf/components/esp32/include/esp_interface.h \
@@ -129,6 +134,7 @@ cpu_start.o: /home/miquel/esp/esp-idf/components/esp32/cpu_start.c \
  /home/miquel/esp/esp-idf/components/vfs/include/sys/ioctl.h \
  /home/miquel/esp/esp-idf/components/newlib/platform_include/sys/select.h \
  /home/miquel/esp/esp-idf/components/esp32/include/esp_task.h \
+ /home/miquel/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h \
  /home/miquel/esp/esp-idf/components/lwip/port/esp32/include/netif/dhcp_state.h \
  /home/miquel/esp/esp-idf/components/lwip/lwip/src/include/lwip/debug.h \
  /home/miquel/esp/esp-idf/components/lwip/lwip/src/include/lwip/arch.h \
@@ -165,7 +171,6 @@ cpu_start.o: /home/miquel/esp/esp-idf/components/esp32/cpu_start.c \
  /home/miquel/esp/esp-idf/components/app_trace/include/esp_app_trace_util.h \
  /home/miquel/esp/esp-idf/components/esp32/include/esp_dbg_stubs.h \
  /home/miquel/esp/esp-idf/components/bootloader_support/include/esp_efuse.h \
- /home/miquel/esp/esp-idf/components/soc/esp32/include/soc/efuse_reg.h \
  /home/miquel/esp/esp-idf/components/esp32/include/esp_spiram.h \
  /home/miquel/esp/esp-idf/components/esp32/esp_clk_internal.h \
  /home/miquel/esp/esp-idf/components/esp32/include/esp_pm.h \
@@ -225,7 +230,7 @@ cpu_start.o: /home/miquel/esp/esp-idf/components/esp32/cpu_start.c \
 
 /home/miquel/esp/esp-idf/components/newlib/platform_include/assert.h:
 
-/home/miquel/esp/beacon_synch/build/include/sdkconfig.h:
+/home/miquel/esp/ESP32/beacon_synch/build/include/sdkconfig.h:
 
 /home/miquel/esp/esp-idf/components/newlib/include/stdlib.h:
 
@@ -296,6 +301,8 @@ cpu_start.o: /home/miquel/esp/esp-idf/components/esp32/cpu_start.c \
 /home/miquel/esp/esp-idf/components/soc/esp32/include/soc/timer_group_reg.h:
 
 /home/miquel/esp/esp-idf/components/soc/include/soc/rtc_wdt.h:
+
+/home/miquel/esp/esp-idf/components/soc/esp32/include/soc/efuse_reg.h:
 
 /home/miquel/esp/esp-idf/components/driver/include/driver/rtc_io.h:
 
@@ -389,7 +396,15 @@ cpu_start.o: /home/miquel/esp/esp-idf/components/esp32/cpu_start.c \
 
 /home/miquel/esp/esp-idf/components/nvs_flash/include/nvs.h:
 
-/home/miquel/esp/esp-idf/components/esp32/include/esp_event.h:
+/home/miquel/esp/esp-idf/components/spi_flash/include/esp_partition.h:
+
+/home/miquel/esp/esp-idf/components/spi_flash/include/esp_spi_flash.h:
+
+/home/miquel/esp/esp-idf/components/esp_event/include/esp_event.h:
+
+/home/miquel/esp/esp-idf/components/esp_event/include/esp_event_base.h:
+
+/home/miquel/esp/esp-idf/components/esp32/include/esp_event_legacy.h:
 
 /home/miquel/esp/esp-idf/components/esp32/include/esp_wifi_types.h:
 
@@ -434,6 +449,8 @@ cpu_start.o: /home/miquel/esp/esp-idf/components/esp32/cpu_start.c \
 /home/miquel/esp/esp-idf/components/newlib/platform_include/sys/select.h:
 
 /home/miquel/esp/esp-idf/components/esp32/include/esp_task.h:
+
+/home/miquel/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h:
 
 /home/miquel/esp/esp-idf/components/lwip/port/esp32/include/netif/dhcp_state.h:
 
@@ -506,8 +523,6 @@ cpu_start.o: /home/miquel/esp/esp-idf/components/esp32/cpu_start.c \
 /home/miquel/esp/esp-idf/components/esp32/include/esp_dbg_stubs.h:
 
 /home/miquel/esp/esp-idf/components/bootloader_support/include/esp_efuse.h:
-
-/home/miquel/esp/esp-idf/components/soc/esp32/include/soc/efuse_reg.h:
 
 /home/miquel/esp/esp-idf/components/esp32/include/esp_spiram.h:
 

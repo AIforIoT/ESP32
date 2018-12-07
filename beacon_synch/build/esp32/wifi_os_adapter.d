@@ -24,7 +24,7 @@ wifi_os_adapter.o: \
  /home/miquel/esp/esp-idf/components/newlib/include/string.h \
  /home/miquel/esp/esp-idf/components/newlib/include/sys/string.h \
  /home/miquel/esp/esp-idf/components/newlib/platform_include/assert.h \
- /home/miquel/esp/beacon_synch/build/include/sdkconfig.h \
+ /home/miquel/esp/ESP32/beacon_synch/build/include/sdkconfig.h \
  /home/miquel/esp/esp-idf/components/newlib/include/assert.h \
  /home/miquel/esp/esp-idf/components/freertos/include/freertos/FreeRTOS.h \
  /home/miquel/esp/esp-idf/components/newlib/include/stdint.h \
@@ -89,6 +89,7 @@ wifi_os_adapter.o: \
  /home/miquel/esp/esp-idf/components/freertos/include/freertos/task.h \
  /home/miquel/esp/esp-idf/components/freertos/include/freertos/portmacro.h \
  /home/miquel/esp/esp-idf/components/esp32/include/esp_task.h \
+ /home/miquel/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h \
  /home/miquel/esp/esp-idf/components/log/include/esp_log.h \
  /home/miquel/esp/esp-idf/components/log/include/esp_log_internal.h \
  /home/miquel/esp/esp-idf/components/esp32/include/esp_wifi_os_adapter.h \
@@ -96,7 +97,9 @@ wifi_os_adapter.o: \
  /home/miquel/esp/esp-idf/components/esp32/include/rom/queue.h \
  /home/miquel/esp/esp-idf/components/esp32/include/esp_wifi_types.h \
  /home/miquel/esp/esp-idf/components/esp32/include/esp_interface.h \
- /home/miquel/esp/esp-idf/components/esp32/include/esp_event.h \
+ /home/miquel/esp/esp-idf/components/esp_event/include/esp_event.h \
+ /home/miquel/esp/esp-idf/components/esp_event/include/esp_event_base.h \
+ /home/miquel/esp/esp-idf/components/esp32/include/esp_event_legacy.h \
  /home/miquel/esp/esp-idf/components/tcpip_adapter/include/tcpip_adapter.h \
  /home/miquel/esp/esp-idf/components/esp32/include/rom/queue.h \
  /home/miquel/esp/esp-idf/components/esp32/include/esp_wifi_types.h \
@@ -201,7 +204,7 @@ wifi_os_adapter.o: \
 
 /home/miquel/esp/esp-idf/components/newlib/platform_include/assert.h:
 
-/home/miquel/esp/beacon_synch/build/include/sdkconfig.h:
+/home/miquel/esp/ESP32/beacon_synch/build/include/sdkconfig.h:
 
 /home/miquel/esp/esp-idf/components/newlib/include/assert.h:
 
@@ -331,6 +334,8 @@ wifi_os_adapter.o: \
 
 /home/miquel/esp/esp-idf/components/esp32/include/esp_task.h:
 
+/home/miquel/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h:
+
 /home/miquel/esp/esp-idf/components/log/include/esp_log.h:
 
 /home/miquel/esp/esp-idf/components/log/include/esp_log_internal.h:
@@ -345,7 +350,11 @@ wifi_os_adapter.o: \
 
 /home/miquel/esp/esp-idf/components/esp32/include/esp_interface.h:
 
-/home/miquel/esp/esp-idf/components/esp32/include/esp_event.h:
+/home/miquel/esp/esp-idf/components/esp_event/include/esp_event.h:
+
+/home/miquel/esp/esp-idf/components/esp_event/include/esp_event_base.h:
+
+/home/miquel/esp/esp-idf/components/esp32/include/esp_event_legacy.h:
 
 /home/miquel/esp/esp-idf/components/tcpip_adapter/include/tcpip_adapter.h:
 

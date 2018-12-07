@@ -38,7 +38,7 @@ nghttp2/lib/nghttp2_outbound_item.o: \
  /home/miquel/esp/esp-idf/components/nghttp/nghttp2/lib/nghttp2_mem.h \
  /home/miquel/esp/esp-idf/components/nghttp/nghttp2/lib/nghttp2_rcbuf.h \
  /home/miquel/esp/esp-idf/components/newlib/platform_include/assert.h \
- /home/miquel/esp/beacon_synch/build/include/sdkconfig.h \
+ /home/miquel/esp/ESP32/beacon_synch/build/include/sdkconfig.h \
  /home/miquel/esp/esp-idf/components/newlib/include/assert.h
 
 /home/miquel/esp/esp-idf/components/nghttp/nghttp2/lib/nghttp2_outbound_item.h:
@@ -117,7 +117,7 @@ nghttp2/lib/nghttp2_outbound_item.o: \
 
 /home/miquel/esp/esp-idf/components/newlib/platform_include/assert.h:
 
-/home/miquel/esp/beacon_synch/build/include/sdkconfig.h:
+/home/miquel/esp/ESP32/beacon_synch/build/include/sdkconfig.h:
 
 /home/miquel/esp/esp-idf/components/newlib/include/assert.h:
 /home/miquel/esp/esp-idf/components/nghttp/nghttp2/lib/nghttp2_outbound_item.c:

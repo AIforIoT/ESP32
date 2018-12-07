@@ -24,7 +24,7 @@ system_api.o: /home/miquel/esp/esp-idf/components/esp32/system_api.c \
  /home/miquel/esp/esp-idf/components/newlib/include/sys/sched.h \
  /home/miquel/esp/esp-idf/components/newlib/include/sys/stdio.h \
  /home/miquel/esp/esp-idf/components/newlib/platform_include/assert.h \
- /home/miquel/esp/beacon_synch/build/include/sdkconfig.h \
+ /home/miquel/esp/ESP32/beacon_synch/build/include/sdkconfig.h \
  /home/miquel/esp/esp-idf/components/newlib/include/stdlib.h \
  /home/miquel/esp/esp-idf/components/newlib/include/machine/stdlib.h \
  /home/miquel/esp/esp-idf/components/newlib/include/alloca.h \
@@ -83,7 +83,14 @@ system_api.o: /home/miquel/esp/esp-idf/components/esp32/system_api.c \
  /home/miquel/esp/esp-idf/components/esp32/include/esp_wifi_types.h \
  /home/miquel/esp/esp-idf/components/esp32/include/esp_interface.h \
  /home/miquel/esp/esp-idf/components/esp32/include/esp_wifi_crypto_types.h \
- /home/miquel/esp/esp-idf/components/esp32/include/esp_event.h \
+ /home/miquel/esp/esp-idf/components/esp_event/include/esp_event.h \
+ /home/miquel/esp/esp-idf/components/freertos/include/freertos/task.h \
+ /home/miquel/esp/esp-idf/components/newlib/include/limits.h \
+ /home/miquel/esp/esp-idf/components/freertos/include/freertos/list.h \
+ /home/miquel/esp/esp-idf/components/freertos/include/freertos/semphr.h \
+ /home/miquel/esp/esp-idf/components/freertos/include/freertos/queue.h \
+ /home/miquel/esp/esp-idf/components/esp_event/include/esp_event_base.h \
+ /home/miquel/esp/esp-idf/components/esp32/include/esp_event_legacy.h \
  /home/miquel/esp/esp-idf/components/tcpip_adapter/include/tcpip_adapter.h \
  /home/miquel/esp/esp-idf/components/esp32/include/rom/queue.h \
  /home/miquel/esp/esp-idf/components/esp32/include/esp_wifi_types.h \
@@ -103,6 +110,7 @@ system_api.o: /home/miquel/esp/esp-idf/components/esp32/system_api.c \
  /home/miquel/esp/esp-idf/components/vfs/include/sys/ioctl.h \
  /home/miquel/esp/esp-idf/components/newlib/platform_include/sys/select.h \
  /home/miquel/esp/esp-idf/components/esp32/include/esp_task.h \
+ /home/miquel/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h \
  /home/miquel/esp/esp-idf/components/lwip/port/esp32/include/netif/dhcp_state.h \
  /home/miquel/esp/esp-idf/components/lwip/lwip/src/include/lwip/debug.h \
  /home/miquel/esp/esp-idf/components/lwip/lwip/src/include/lwip/arch.h \
@@ -111,11 +119,6 @@ system_api.o: /home/miquel/esp/esp-idf/components/esp32/system_api.c \
  /home/miquel/esp/esp-idf/components/newlib/include/errno.h \
  /home/miquel/esp/esp-idf/components/newlib/include/sys/errno.h \
  /home/miquel/esp/esp-idf/components/lwip/port/esp32/include/arch/sys_arch.h \
- /home/miquel/esp/esp-idf/components/freertos/include/freertos/task.h \
- /home/miquel/esp/esp-idf/components/newlib/include/limits.h \
- /home/miquel/esp/esp-idf/components/freertos/include/freertos/list.h \
- /home/miquel/esp/esp-idf/components/freertos/include/freertos/semphr.h \
- /home/miquel/esp/esp-idf/components/freertos/include/freertos/queue.h \
  /home/miquel/esp/esp-idf/components/lwip/port/esp32/include/arch/vfs_lwip.h \
  /home/miquel/esp/esp-idf/components/newlib/include/inttypes.h \
  /home/miquel/esp/esp-idf/components/lwip/lwip/src/include/lwip/def.h \
@@ -197,7 +200,7 @@ system_api.o: /home/miquel/esp/esp-idf/components/esp32/system_api.c \
 
 /home/miquel/esp/esp-idf/components/newlib/platform_include/assert.h:
 
-/home/miquel/esp/beacon_synch/build/include/sdkconfig.h:
+/home/miquel/esp/ESP32/beacon_synch/build/include/sdkconfig.h:
 
 /home/miquel/esp/esp-idf/components/newlib/include/stdlib.h:
 
@@ -315,7 +318,21 @@ system_api.o: /home/miquel/esp/esp-idf/components/esp32/system_api.c \
 
 /home/miquel/esp/esp-idf/components/esp32/include/esp_wifi_crypto_types.h:
 
-/home/miquel/esp/esp-idf/components/esp32/include/esp_event.h:
+/home/miquel/esp/esp-idf/components/esp_event/include/esp_event.h:
+
+/home/miquel/esp/esp-idf/components/freertos/include/freertos/task.h:
+
+/home/miquel/esp/esp-idf/components/newlib/include/limits.h:
+
+/home/miquel/esp/esp-idf/components/freertos/include/freertos/list.h:
+
+/home/miquel/esp/esp-idf/components/freertos/include/freertos/semphr.h:
+
+/home/miquel/esp/esp-idf/components/freertos/include/freertos/queue.h:
+
+/home/miquel/esp/esp-idf/components/esp_event/include/esp_event_base.h:
+
+/home/miquel/esp/esp-idf/components/esp32/include/esp_event_legacy.h:
 
 /home/miquel/esp/esp-idf/components/tcpip_adapter/include/tcpip_adapter.h:
 
@@ -355,6 +372,8 @@ system_api.o: /home/miquel/esp/esp-idf/components/esp32/system_api.c \
 
 /home/miquel/esp/esp-idf/components/esp32/include/esp_task.h:
 
+/home/miquel/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h:
+
 /home/miquel/esp/esp-idf/components/lwip/port/esp32/include/netif/dhcp_state.h:
 
 /home/miquel/esp/esp-idf/components/lwip/lwip/src/include/lwip/debug.h:
@@ -370,16 +389,6 @@ system_api.o: /home/miquel/esp/esp-idf/components/esp32/system_api.c \
 /home/miquel/esp/esp-idf/components/newlib/include/sys/errno.h:
 
 /home/miquel/esp/esp-idf/components/lwip/port/esp32/include/arch/sys_arch.h:
-
-/home/miquel/esp/esp-idf/components/freertos/include/freertos/task.h:
-
-/home/miquel/esp/esp-idf/components/newlib/include/limits.h:
-
-/home/miquel/esp/esp-idf/components/freertos/include/freertos/list.h:
-
-/home/miquel/esp/esp-idf/components/freertos/include/freertos/semphr.h:
-
-/home/miquel/esp/esp-idf/components/freertos/include/freertos/queue.h:
 
 /home/miquel/esp/esp-idf/components/lwip/port/esp32/include/arch/vfs_lwip.h:
 

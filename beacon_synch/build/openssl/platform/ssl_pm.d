@@ -26,7 +26,7 @@ platform/ssl_pm.o: \
  /home/miquel/esp/esp-idf/components/newlib/include/stdint.h \
  /home/miquel/esp/esp-idf/components/newlib/include/sys/_intsup.h \
  /home/miquel/esp/esp-idf/components/log/include/esp_log.h \
- /home/miquel/esp/beacon_synch/build/include/sdkconfig.h \
+ /home/miquel/esp/ESP32/beacon_synch/build/include/sdkconfig.h \
  /home/miquel/esp/esp-idf/components/esp32/include/rom/ets_sys.h \
  /home/miquel/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
  /home/miquel/esp/esp-idf/components/esp32/include/esp_assert.h \
@@ -44,6 +44,7 @@ platform/ssl_pm.o: \
  /home/miquel/esp/esp-idf/components/openssl/include/platform/ssl_port.h \
  /home/miquel/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/platform.h \
  /home/miquel/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h \
+ /home/miquel/esp/esp-idf/components/mbedtls/port/include/esp_mem.h \
  /home/miquel/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/check_config.h \
  /home/miquel/esp/esp-idf/components/newlib/include/limits.h \
  /home/miquel/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/platform_time.h \
@@ -134,7 +135,7 @@ platform/ssl_pm.o: \
 
 /home/miquel/esp/esp-idf/components/log/include/esp_log.h:
 
-/home/miquel/esp/beacon_synch/build/include/sdkconfig.h:
+/home/miquel/esp/ESP32/beacon_synch/build/include/sdkconfig.h:
 
 /home/miquel/esp/esp-idf/components/esp32/include/rom/ets_sys.h:
 
@@ -169,6 +170,8 @@ platform/ssl_pm.o: \
 /home/miquel/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/platform.h:
 
 /home/miquel/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h:
+
+/home/miquel/esp/esp-idf/components/mbedtls/port/include/esp_mem.h:
 
 /home/miquel/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/check_config.h:
 

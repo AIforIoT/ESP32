@@ -1,5 +1,5 @@
 spiram_psram.o: /home/miquel/esp/esp-idf/components/esp32/spiram_psram.c \
- /home/miquel/esp/beacon_synch/build/include/sdkconfig.h \
+ /home/miquel/esp/ESP32/beacon_synch/build/include/sdkconfig.h \
  /home/miquel/esp/esp-idf/components/newlib/include/string.h \
  /home/miquel/esp/esp-idf/components/newlib/include/_ansi.h \
  /home/miquel/esp/esp-idf/components/newlib/include/newlib.h \
@@ -75,7 +75,7 @@ spiram_psram.o: /home/miquel/esp/esp-idf/components/esp32/spiram_psram.c \
  /home/miquel/esp/esp-idf/components/soc/esp32/include/soc/spi_struct.h \
  /home/miquel/esp/esp-idf/components/driver/include/driver/periph_ctrl.h
 
-/home/miquel/esp/beacon_synch/build/include/sdkconfig.h:
+/home/miquel/esp/ESP32/beacon_synch/build/include/sdkconfig.h:
 
 /home/miquel/esp/esp-idf/components/newlib/include/string.h:
 

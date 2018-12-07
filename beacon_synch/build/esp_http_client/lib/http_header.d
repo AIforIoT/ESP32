@@ -27,7 +27,7 @@ lib/http_header.o: \
  /home/miquel/esp/esp-idf/components/log/include/esp_log.h \
  /home/miquel/esp/esp-idf/components/newlib/include/stdint.h \
  /home/miquel/esp/esp-idf/components/newlib/include/sys/_intsup.h \
- /home/miquel/esp/beacon_synch/build/include/sdkconfig.h \
+ /home/miquel/esp/ESP32/beacon_synch/build/include/sdkconfig.h \
  /home/miquel/esp/esp-idf/components/esp32/include/rom/ets_sys.h \
  /home/miquel/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
  /home/miquel/esp/esp-idf/components/esp32/include/esp_assert.h \
@@ -39,7 +39,7 @@ lib/http_header.o: \
  /home/miquel/esp/esp-idf/components/esp32/include/esp_err.h \
  /home/miquel/esp/esp-idf/components/esp_http_client/lib/include/http_utils.h \
  /home/miquel/esp/esp-idf/components/newlib/include/sys/time.h \
- /home/miquel/esp/esp-idf/components/tcp_transport/include/transport_utils.h
+ /home/miquel/esp/esp-idf/components/tcp_transport/include/esp_transport_utils.h
 
 /home/miquel/esp/esp-idf/components/newlib/include/stdlib.h:
 
@@ -95,7 +95,7 @@ lib/http_header.o: \
 
 /home/miquel/esp/esp-idf/components/newlib/include/sys/_intsup.h:
 
-/home/miquel/esp/beacon_synch/build/include/sdkconfig.h:
+/home/miquel/esp/ESP32/beacon_synch/build/include/sdkconfig.h:
 
 /home/miquel/esp/esp-idf/components/esp32/include/rom/ets_sys.h:
 
@@ -119,5 +119,5 @@ lib/http_header.o: \
 
 /home/miquel/esp/esp-idf/components/newlib/include/sys/time.h:
 
-/home/miquel/esp/esp-idf/components/tcp_transport/include/transport_utils.h:
+/home/miquel/esp/esp-idf/components/tcp_transport/include/esp_transport_utils.h:
 /home/miquel/esp/esp-idf/components/esp_http_client/lib/http_header.c:

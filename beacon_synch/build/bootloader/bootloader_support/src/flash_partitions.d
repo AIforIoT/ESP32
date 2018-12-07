@@ -3,7 +3,7 @@ src/flash_partitions.o: \
  /home/miquel/esp/esp-idf/components/bootloader_support/include/esp_flash_partitions.h \
  /home/miquel/esp/esp-idf/components/esp32/include/esp_err.h \
  /home/miquel/esp/esp-idf/components/esp32/include/esp_flash_data_types.h \
- /home/miquel/esp/esp-idf/examples/wifi/getting_started/station/build/bootloader/../include/sdkconfig.h \
+ /home/miquel/esp/ESP32/beacon_synch/build/bootloader/../include/sdkconfig.h \
  /home/miquel/esp/esp-idf/components/log/include/esp_log.h \
  /home/miquel/esp/esp-idf/components/esp32/include/rom/ets_sys.h \
  /home/miquel/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
@@ -21,7 +21,7 @@ src/flash_partitions.o: \
 
 /home/miquel/esp/esp-idf/components/esp32/include/esp_flash_data_types.h:
 
-/home/miquel/esp/esp-idf/examples/wifi/getting_started/station/build/bootloader/../include/sdkconfig.h:
+/home/miquel/esp/ESP32/beacon_synch/build/bootloader/../include/sdkconfig.h:
 
 /home/miquel/esp/esp-idf/components/log/include/esp_log.h:
 

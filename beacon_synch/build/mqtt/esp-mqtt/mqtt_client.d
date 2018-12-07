@@ -24,7 +24,7 @@ esp-mqtt/mqtt_client.o: \
  /home/miquel/esp/esp-idf/components/newlib/include/stdint.h \
  /home/miquel/esp/esp-idf/components/newlib/include/sys/_intsup.h \
  /home/miquel/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h \
- /home/miquel/esp/beacon_synch/build/include/sdkconfig.h \
+ /home/miquel/esp/ESP32/beacon_synch/build/include/sdkconfig.h \
  /home/miquel/esp/esp-idf/components/freertos/include/freertos/xtensa_config.h \
  /home/miquel/esp/esp-idf/components/esp32/include/xtensa/hal.h \
  /home/miquel/esp/esp-idf/components/esp32/include/xtensa/config/core.h \
@@ -103,6 +103,7 @@ esp-mqtt/mqtt_client.o: \
  /home/miquel/esp/esp-idf/components/vfs/include/sys/ioctl.h \
  /home/miquel/esp/esp-idf/components/newlib/platform_include/sys/select.h \
  /home/miquel/esp/esp-idf/components/esp32/include/esp_task.h \
+ /home/miquel/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h \
  /home/miquel/esp/esp-idf/components/lwip/port/esp32/include/netif/dhcp_state.h \
  /home/miquel/esp/esp-idf/components/lwip/lwip/src/include/lwip/debug.h \
  /home/miquel/esp/esp-idf/components/lwip/lwip/src/include/lwip/arch.h \
@@ -133,11 +134,11 @@ esp-mqtt/mqtt_client.o: \
  /home/miquel/esp/esp-idf/components/mqtt/esp-mqtt/include/mqtt_config.h \
  /home/miquel/esp/esp-idf/components/mqtt/esp-mqtt/lib/include/mqtt_msg.h \
  /home/miquel/esp/esp-idf/components/mqtt/esp-mqtt/include/mqtt_config.h \
- /home/miquel/esp/esp-idf/components/tcp_transport/include/transport.h \
- /home/miquel/esp/esp-idf/components/tcp_transport/include/transport_tcp.h \
- /home/miquel/esp/esp-idf/components/tcp_transport/include/transport.h \
- /home/miquel/esp/esp-idf/components/tcp_transport/include/transport_ssl.h \
- /home/miquel/esp/esp-idf/components/mqtt/esp-mqtt/lib/include/transport_ws.h \
+ /home/miquel/esp/esp-idf/components/tcp_transport/include/esp_transport.h \
+ /home/miquel/esp/esp-idf/components/tcp_transport/include/esp_transport_tcp.h \
+ /home/miquel/esp/esp-idf/components/tcp_transport/include/esp_transport.h \
+ /home/miquel/esp/esp-idf/components/tcp_transport/include/esp_transport_ssl.h \
+ /home/miquel/esp/esp-idf/components/tcp_transport/include/esp_transport_ws.h \
  /home/miquel/esp/esp-idf/components/mqtt/esp-mqtt/lib/include/mqtt_outbox.h \
  /home/miquel/esp/esp-idf/components/mqtt/esp-mqtt/lib/include/platform.h \
  /home/miquel/esp/esp-idf/components/nghttp/port/include/http_parser.h
@@ -190,7 +191,7 @@ esp-mqtt/mqtt_client.o: \
 
 /home/miquel/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h:
 
-/home/miquel/esp/beacon_synch/build/include/sdkconfig.h:
+/home/miquel/esp/ESP32/beacon_synch/build/include/sdkconfig.h:
 
 /home/miquel/esp/esp-idf/components/freertos/include/freertos/xtensa_config.h:
 
@@ -348,6 +349,8 @@ esp-mqtt/mqtt_client.o: \
 
 /home/miquel/esp/esp-idf/components/esp32/include/esp_task.h:
 
+/home/miquel/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h:
+
 /home/miquel/esp/esp-idf/components/lwip/port/esp32/include/netif/dhcp_state.h:
 
 /home/miquel/esp/esp-idf/components/lwip/lwip/src/include/lwip/debug.h:
@@ -408,15 +411,15 @@ esp-mqtt/mqtt_client.o: \
 
 /home/miquel/esp/esp-idf/components/mqtt/esp-mqtt/include/mqtt_config.h:
 
-/home/miquel/esp/esp-idf/components/tcp_transport/include/transport.h:
+/home/miquel/esp/esp-idf/components/tcp_transport/include/esp_transport.h:
 
-/home/miquel/esp/esp-idf/components/tcp_transport/include/transport_tcp.h:
+/home/miquel/esp/esp-idf/components/tcp_transport/include/esp_transport_tcp.h:
 
-/home/miquel/esp/esp-idf/components/tcp_transport/include/transport.h:
+/home/miquel/esp/esp-idf/components/tcp_transport/include/esp_transport.h:
 
-/home/miquel/esp/esp-idf/components/tcp_transport/include/transport_ssl.h:
+/home/miquel/esp/esp-idf/components/tcp_transport/include/esp_transport_ssl.h:
 
-/home/miquel/esp/esp-idf/components/mqtt/esp-mqtt/lib/include/transport_ws.h:
+/home/miquel/esp/esp-idf/components/tcp_transport/include/esp_transport_ws.h:
 
 /home/miquel/esp/esp-idf/components/mqtt/esp-mqtt/lib/include/mqtt_outbox.h:
 

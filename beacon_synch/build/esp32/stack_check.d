@@ -1,5 +1,5 @@
 stack_check.o: /home/miquel/esp/esp-idf/components/esp32/stack_check.c \
- /home/miquel/esp/beacon_synch/build/include/sdkconfig.h \
+ /home/miquel/esp/ESP32/beacon_synch/build/include/sdkconfig.h \
  /home/miquel/esp/esp-idf/components/esp32/include/esp_system.h \
  /home/miquel/esp/esp-idf/components/newlib/include/stdint.h \
  /home/miquel/esp/esp-idf/components/newlib/include/machine/_default_types.h \
@@ -58,7 +58,7 @@ stack_check.o: /home/miquel/esp/esp-idf/components/esp32/stack_check.c \
  /home/miquel/esp/esp-idf/components/esp32/include/xtensa/config/core-matmap.h \
  /home/miquel/esp/esp-idf/components/soc/esp32/include/soc/touch_channel.h
 
-/home/miquel/esp/beacon_synch/build/include/sdkconfig.h:
+/home/miquel/esp/ESP32/beacon_synch/build/include/sdkconfig.h:
 
 /home/miquel/esp/esp-idf/components/esp32/include/esp_system.h:
 

@@ -20,7 +20,7 @@ clk.o: /home/miquel/esp/esp-idf/components/esp32/clk.c \
  /home/miquel/esp/esp-idf/components/newlib/include/sys/syslimits.h \
  /home/miquel/esp/esp-idf/components/newlib/include/machine/endian.h \
  /home/miquel/esp/esp-idf/components/newlib/include/machine/param.h \
- /home/miquel/esp/beacon_synch/build/include/sdkconfig.h \
+ /home/miquel/esp/ESP32/beacon_synch/build/include/sdkconfig.h \
  /home/miquel/esp/esp-idf/components/esp32/include/esp_attr.h \
  /home/miquel/esp/esp-idf/components/log/include/esp_log.h \
  /home/miquel/esp/esp-idf/components/esp32/include/rom/ets_sys.h \
@@ -110,7 +110,7 @@ clk.o: /home/miquel/esp/esp-idf/components/esp32/clk.c \
 
 /home/miquel/esp/esp-idf/components/newlib/include/machine/param.h:
 
-/home/miquel/esp/beacon_synch/build/include/sdkconfig.h:
+/home/miquel/esp/ESP32/beacon_synch/build/include/sdkconfig.h:
 
 /home/miquel/esp/esp-idf/components/esp32/include/esp_attr.h:
 

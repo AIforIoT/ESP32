@@ -24,7 +24,7 @@ spi_common.o: /home/miquel/esp/esp-idf/components/driver/spi_common.c \
  /home/miquel/esp/esp-idf/components/newlib/include/sys/sched.h \
  /home/miquel/esp/esp-idf/components/newlib/include/sys/stdio.h \
  /home/miquel/esp/esp-idf/components/newlib/platform_include/assert.h \
- /home/miquel/esp/beacon_synch/build/include/sdkconfig.h \
+ /home/miquel/esp/ESP32/beacon_synch/build/include/sdkconfig.h \
  /home/miquel/esp/esp-idf/components/newlib/include/stdlib.h \
  /home/miquel/esp/esp-idf/components/newlib/include/machine/stdlib.h \
  /home/miquel/esp/esp-idf/components/newlib/include/alloca.h \
@@ -94,7 +94,8 @@ spi_common.o: /home/miquel/esp/esp-idf/components/driver/spi_common.c \
  /home/miquel/esp/esp-idf/components/soc/esp32/include/soc/uart_reg.h \
  /home/miquel/esp/esp-idf/components/log/include/esp_log.h \
  /home/miquel/esp/esp-idf/components/log/include/esp_log_internal.h \
- /home/miquel/esp/esp-idf/components/driver/include/driver/periph_ctrl.h
+ /home/miquel/esp/esp-idf/components/driver/include/driver/periph_ctrl.h \
+ /home/miquel/esp/esp-idf/components/newlib/include/stdatomic.h
 
 /home/miquel/esp/esp-idf/components/newlib/include/string.h:
 
@@ -146,7 +147,7 @@ spi_common.o: /home/miquel/esp/esp-idf/components/driver/spi_common.c \
 
 /home/miquel/esp/esp-idf/components/newlib/platform_include/assert.h:
 
-/home/miquel/esp/beacon_synch/build/include/sdkconfig.h:
+/home/miquel/esp/ESP32/beacon_synch/build/include/sdkconfig.h:
 
 /home/miquel/esp/esp-idf/components/newlib/include/stdlib.h:
 
@@ -287,4 +288,6 @@ spi_common.o: /home/miquel/esp/esp-idf/components/driver/spi_common.c \
 /home/miquel/esp/esp-idf/components/log/include/esp_log_internal.h:
 
 /home/miquel/esp/esp-idf/components/driver/include/driver/periph_ctrl.h:
+
+/home/miquel/esp/esp-idf/components/newlib/include/stdatomic.h:
 /home/miquel/esp/esp-idf/components/driver/./spi_common.c:

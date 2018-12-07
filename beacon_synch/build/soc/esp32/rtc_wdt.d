@@ -8,7 +8,7 @@ esp32/rtc_wdt.o: /home/miquel/esp/esp-idf/components/soc/esp32/rtc_wdt.c \
  /home/miquel/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
  /home/miquel/esp/esp-idf/components/esp32/include/esp_assert.h \
  /home/miquel/esp/esp-idf/components/newlib/platform_include/assert.h \
- /home/miquel/esp/beacon_synch/build/include/sdkconfig.h \
+ /home/miquel/esp/ESP32/beacon_synch/build/include/sdkconfig.h \
  /home/miquel/esp/esp-idf/components/newlib/include/stdlib.h \
  /home/miquel/esp/esp-idf/components/newlib/include/machine/ieeefp.h \
  /home/miquel/esp/esp-idf/components/newlib/include/_ansi.h \
@@ -51,7 +51,7 @@ esp32/rtc_wdt.o: /home/miquel/esp/esp-idf/components/soc/esp32/rtc_wdt.c \
 
 /home/miquel/esp/esp-idf/components/newlib/platform_include/assert.h:
 
-/home/miquel/esp/beacon_synch/build/include/sdkconfig.h:
+/home/miquel/esp/ESP32/beacon_synch/build/include/sdkconfig.h:
 
 /home/miquel/esp/esp-idf/components/newlib/include/stdlib.h:
 

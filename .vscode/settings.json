@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "http_client.h": "c",
+        "string.h": "c",
+        "synch_beacon.h": "c"
+    }
+}

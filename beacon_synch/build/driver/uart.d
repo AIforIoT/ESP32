@@ -23,7 +23,7 @@ uart.o: /home/miquel/esp/esp-idf/components/driver/uart.c \
  /home/miquel/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
  /home/miquel/esp/esp-idf/components/esp32/include/esp_assert.h \
  /home/miquel/esp/esp-idf/components/newlib/platform_include/assert.h \
- /home/miquel/esp/beacon_synch/build/include/sdkconfig.h \
+ /home/miquel/esp/ESP32/beacon_synch/build/include/sdkconfig.h \
  /home/miquel/esp/esp-idf/components/newlib/include/stdlib.h \
  /home/miquel/esp/esp-idf/components/newlib/include/machine/stdlib.h \
  /home/miquel/esp/esp-idf/components/newlib/include/alloca.h \
@@ -87,7 +87,7 @@ uart.o: /home/miquel/esp/esp-idf/components/driver/uart.c \
  /home/miquel/esp/esp-idf/components/freertos/include/freertos/task.h \
  /home/miquel/esp/esp-idf/components/newlib/include/limits.h \
  /home/miquel/esp/esp-idf/components/freertos/include/freertos/list.h \
- /home/miquel/esp/esp-idf/components/freertos/include/freertos/ringbuf.h \
+ /home/miquel/esp/esp-idf/components/esp_ringbuf/include/freertos/ringbuf.h \
  /home/miquel/esp/esp-idf/components/freertos/include/freertos/queue.h \
  /home/miquel/esp/esp-idf/components/soc/esp32/include/soc/dport_reg.h \
  /home/miquel/esp/esp-idf/components/soc/esp32/include/soc/dport_access.h \
@@ -149,7 +149,7 @@ uart.o: /home/miquel/esp/esp-idf/components/driver/uart.c \
 
 /home/miquel/esp/esp-idf/components/newlib/platform_include/assert.h:
 
-/home/miquel/esp/beacon_synch/build/include/sdkconfig.h:
+/home/miquel/esp/ESP32/beacon_synch/build/include/sdkconfig.h:
 
 /home/miquel/esp/esp-idf/components/newlib/include/stdlib.h:
 
@@ -277,7 +277,7 @@ uart.o: /home/miquel/esp/esp-idf/components/driver/uart.c \
 
 /home/miquel/esp/esp-idf/components/freertos/include/freertos/list.h:
 
-/home/miquel/esp/esp-idf/components/freertos/include/freertos/ringbuf.h:
+/home/miquel/esp/esp-idf/components/esp_ringbuf/include/freertos/ringbuf.h:
 
 /home/miquel/esp/esp-idf/components/freertos/include/freertos/queue.h:
 

@@ -34,21 +34,34 @@ port/esp32/netif/wlanif.o: \
  /home/miquel/esp/esp-idf/components/vfs/include/sys/ioctl.h \
  /home/miquel/esp/esp-idf/components/newlib/platform_include/sys/select.h \
  /home/miquel/esp/esp-idf/components/esp32/include/esp_task.h \
- /home/miquel/esp/beacon_synch/build/include/sdkconfig.h \
- /home/miquel/esp/esp-idf/components/esp32/include/esp_system.h \
+ /home/miquel/esp/ESP32/beacon_synch/build/include/sdkconfig.h \
+ /home/miquel/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h \
+ /home/miquel/esp/esp-idf/components/freertos/include/freertos/xtensa_config.h \
+ /home/miquel/esp/esp-idf/components/esp32/include/xtensa/hal.h \
+ /home/miquel/esp/esp-idf/components/esp32/include/xtensa/config/core.h \
+ /home/miquel/esp/esp-idf/components/esp32/include/xtensa/xtensa-versions.h \
+ /home/miquel/esp/esp-idf/components/esp32/include/xtensa/config/core-matmap.h \
+ /home/miquel/esp/esp-idf/components/esp32/include/xtensa/config/tie.h \
+ /home/miquel/esp/esp-idf/components/esp32/include/xtensa/config/system.h \
+ /home/miquel/esp/esp-idf/components/freertos/include/freertos/xtensa_context.h \
+ /home/miquel/esp/esp-idf/components/esp32/include/xtensa/corebits.h \
+ /home/miquel/esp/esp-idf/components/esp32/include/xtensa/xtruntime-frames.h \
+ /home/miquel/esp/esp-idf/components/esp32/include/rom/ets_sys.h \
  /home/miquel/esp/esp-idf/components/newlib/include/stdint.h \
  /home/miquel/esp/esp-idf/components/newlib/include/sys/_intsup.h \
+ /home/miquel/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
+ /home/miquel/esp/esp-idf/components/esp32/include/esp_assert.h \
+ /home/miquel/esp/esp-idf/components/newlib/platform_include/assert.h \
+ /home/miquel/esp/esp-idf/components/newlib/include/assert.h \
+ /home/miquel/esp/esp-idf/components/esp32/include/esp_system.h \
  /home/miquel/esp/esp-idf/components/esp32/include/esp_err.h \
  /home/miquel/esp/esp-idf/components/newlib/include/stdio.h \
  /home/miquel/esp/esp-idf/components/newlib/include/sys/stdio.h \
- /home/miquel/esp/esp-idf/components/newlib/platform_include/assert.h \
- /home/miquel/esp/esp-idf/components/newlib/include/assert.h \
  /home/miquel/esp/esp-idf/components/esp32/include/esp_sleep.h \
  /home/miquel/esp/esp-idf/components/driver/include/driver/gpio.h \
  /home/miquel/esp/esp-idf/components/esp32/include/esp_types.h \
  /home/miquel/esp/esp-idf/components/soc/esp32/include/soc/gpio_reg.h \
  /home/miquel/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
- /home/miquel/esp/esp-idf/components/esp32/include/esp_assert.h \
  /home/miquel/esp/esp-idf/components/soc/esp32/include/soc/gpio_struct.h \
  /home/miquel/esp/esp-idf/components/soc/esp32/include/soc/rtc_io_reg.h \
  /home/miquel/esp/esp-idf/components/soc/esp32/include/soc/io_mux_reg.h \
@@ -61,17 +74,7 @@ port/esp32/netif/wlanif.o: \
  /home/miquel/esp/esp-idf/components/driver/include/driver/touch_pad.h \
  /home/miquel/esp/esp-idf/components/esp32/include/esp_intr.h \
  /home/miquel/esp/esp-idf/components/esp32/include/rom/ets_sys.h \
- /home/miquel/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
  /home/miquel/esp/esp-idf/components/freertos/include/freertos/xtensa_api.h \
- /home/miquel/esp/esp-idf/components/esp32/include/xtensa/hal.h \
- /home/miquel/esp/esp-idf/components/freertos/include/freertos/xtensa_context.h \
- /home/miquel/esp/esp-idf/components/esp32/include/xtensa/config/tie.h \
- /home/miquel/esp/esp-idf/components/esp32/include/xtensa/corebits.h \
- /home/miquel/esp/esp-idf/components/esp32/include/xtensa/config/system.h \
- /home/miquel/esp/esp-idf/components/esp32/include/xtensa/xtruntime-frames.h \
- /home/miquel/esp/esp-idf/components/esp32/include/xtensa/config/core.h \
- /home/miquel/esp/esp-idf/components/esp32/include/xtensa/xtensa-versions.h \
- /home/miquel/esp/esp-idf/components/esp32/include/xtensa/config/core-matmap.h \
  /home/miquel/esp/esp-idf/components/soc/esp32/include/soc/touch_channel.h \
  /home/miquel/esp/esp-idf/components/lwip/port/esp32/include/netif/dhcp_state.h \
  /home/miquel/esp/esp-idf/components/lwip/lwip/src/include/lwip/debug.h \
@@ -83,8 +86,6 @@ port/esp32/netif/wlanif.o: \
  /home/miquel/esp/esp-idf/components/lwip/port/esp32/include/arch/sys_arch.h \
  /home/miquel/esp/esp-idf/components/freertos/include/freertos/FreeRTOS.h \
  /home/miquel/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h \
- /home/miquel/esp/esp-idf/components/freertos/include/freertos/xtensa_config.h \
- /home/miquel/esp/esp-idf/components/esp32/include/rom/ets_sys.h \
  /home/miquel/esp/esp-idf/components/freertos/include/freertos/projdefs.h \
  /home/miquel/esp/esp-idf/components/freertos/include/freertos/portable.h \
  /home/miquel/esp/esp-idf/components/freertos/include/freertos/deprecated_definitions.h \
@@ -137,7 +138,9 @@ port/esp32/netif/wlanif.o: \
  /home/miquel/esp/esp-idf/components/esp32/include/esp_wifi_types.h \
  /home/miquel/esp/esp-idf/components/esp32/include/esp_interface.h \
  /home/miquel/esp/esp-idf/components/esp32/include/esp_wifi_crypto_types.h \
- /home/miquel/esp/esp-idf/components/esp32/include/esp_event.h \
+ /home/miquel/esp/esp-idf/components/esp_event/include/esp_event.h \
+ /home/miquel/esp/esp-idf/components/esp_event/include/esp_event_base.h \
+ /home/miquel/esp/esp-idf/components/esp32/include/esp_event_legacy.h \
  /home/miquel/esp/esp-idf/components/tcpip_adapter/include/tcpip_adapter.h \
  /home/miquel/esp/esp-idf/components/esp32/include/rom/queue.h \
  /home/miquel/esp/esp-idf/components/esp32/include/esp_wifi_types.h \
@@ -216,23 +219,51 @@ port/esp32/netif/wlanif.o: \
 
 /home/miquel/esp/esp-idf/components/esp32/include/esp_task.h:
 
-/home/miquel/esp/beacon_synch/build/include/sdkconfig.h:
+/home/miquel/esp/ESP32/beacon_synch/build/include/sdkconfig.h:
 
-/home/miquel/esp/esp-idf/components/esp32/include/esp_system.h:
+/home/miquel/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h:
+
+/home/miquel/esp/esp-idf/components/freertos/include/freertos/xtensa_config.h:
+
+/home/miquel/esp/esp-idf/components/esp32/include/xtensa/hal.h:
+
+/home/miquel/esp/esp-idf/components/esp32/include/xtensa/config/core.h:
+
+/home/miquel/esp/esp-idf/components/esp32/include/xtensa/xtensa-versions.h:
+
+/home/miquel/esp/esp-idf/components/esp32/include/xtensa/config/core-matmap.h:
+
+/home/miquel/esp/esp-idf/components/esp32/include/xtensa/config/tie.h:
+
+/home/miquel/esp/esp-idf/components/esp32/include/xtensa/config/system.h:
+
+/home/miquel/esp/esp-idf/components/freertos/include/freertos/xtensa_context.h:
+
+/home/miquel/esp/esp-idf/components/esp32/include/xtensa/corebits.h:
+
+/home/miquel/esp/esp-idf/components/esp32/include/xtensa/xtruntime-frames.h:
+
+/home/miquel/esp/esp-idf/components/esp32/include/rom/ets_sys.h:
 
 /home/miquel/esp/esp-idf/components/newlib/include/stdint.h:
 
 /home/miquel/esp/esp-idf/components/newlib/include/sys/_intsup.h:
+
+/home/miquel/esp/esp-idf/components/soc/esp32/include/soc/soc.h:
+
+/home/miquel/esp/esp-idf/components/esp32/include/esp_assert.h:
+
+/home/miquel/esp/esp-idf/components/newlib/platform_include/assert.h:
+
+/home/miquel/esp/esp-idf/components/newlib/include/assert.h:
+
+/home/miquel/esp/esp-idf/components/esp32/include/esp_system.h:
 
 /home/miquel/esp/esp-idf/components/esp32/include/esp_err.h:
 
 /home/miquel/esp/esp-idf/components/newlib/include/stdio.h:
 
 /home/miquel/esp/esp-idf/components/newlib/include/sys/stdio.h:
-
-/home/miquel/esp/esp-idf/components/newlib/platform_include/assert.h:
-
-/home/miquel/esp/esp-idf/components/newlib/include/assert.h:
 
 /home/miquel/esp/esp-idf/components/esp32/include/esp_sleep.h:
 
@@ -243,8 +274,6 @@ port/esp32/netif/wlanif.o: \
 /home/miquel/esp/esp-idf/components/soc/esp32/include/soc/gpio_reg.h:
 
 /home/miquel/esp/esp-idf/components/soc/esp32/include/soc/soc.h:
-
-/home/miquel/esp/esp-idf/components/esp32/include/esp_assert.h:
 
 /home/miquel/esp/esp-idf/components/soc/esp32/include/soc/gpio_struct.h:
 
@@ -270,27 +299,7 @@ port/esp32/netif/wlanif.o: \
 
 /home/miquel/esp/esp-idf/components/esp32/include/rom/ets_sys.h:
 
-/home/miquel/esp/esp-idf/components/soc/esp32/include/soc/soc.h:
-
 /home/miquel/esp/esp-idf/components/freertos/include/freertos/xtensa_api.h:
-
-/home/miquel/esp/esp-idf/components/esp32/include/xtensa/hal.h:
-
-/home/miquel/esp/esp-idf/components/freertos/include/freertos/xtensa_context.h:
-
-/home/miquel/esp/esp-idf/components/esp32/include/xtensa/config/tie.h:
-
-/home/miquel/esp/esp-idf/components/esp32/include/xtensa/corebits.h:
-
-/home/miquel/esp/esp-idf/components/esp32/include/xtensa/config/system.h:
-
-/home/miquel/esp/esp-idf/components/esp32/include/xtensa/xtruntime-frames.h:
-
-/home/miquel/esp/esp-idf/components/esp32/include/xtensa/config/core.h:
-
-/home/miquel/esp/esp-idf/components/esp32/include/xtensa/xtensa-versions.h:
-
-/home/miquel/esp/esp-idf/components/esp32/include/xtensa/config/core-matmap.h:
 
 /home/miquel/esp/esp-idf/components/soc/esp32/include/soc/touch_channel.h:
 
@@ -313,10 +322,6 @@ port/esp32/netif/wlanif.o: \
 /home/miquel/esp/esp-idf/components/freertos/include/freertos/FreeRTOS.h:
 
 /home/miquel/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h:
-
-/home/miquel/esp/esp-idf/components/freertos/include/freertos/xtensa_config.h:
-
-/home/miquel/esp/esp-idf/components/esp32/include/rom/ets_sys.h:
 
 /home/miquel/esp/esp-idf/components/freertos/include/freertos/projdefs.h:
 
@@ -422,7 +427,11 @@ port/esp32/netif/wlanif.o: \
 
 /home/miquel/esp/esp-idf/components/esp32/include/esp_wifi_crypto_types.h:
 
-/home/miquel/esp/esp-idf/components/esp32/include/esp_event.h:
+/home/miquel/esp/esp-idf/components/esp_event/include/esp_event.h:
+
+/home/miquel/esp/esp-idf/components/esp_event/include/esp_event_base.h:
+
+/home/miquel/esp/esp-idf/components/esp32/include/esp_event_legacy.h:
 
 /home/miquel/esp/esp-idf/components/tcpip_adapter/include/tcpip_adapter.h:
 

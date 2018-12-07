@@ -1,5 +1,4 @@
-menu "Example Configuration"
-
+menu "WiFi Configuration"
 config ESP_WIFI_SSID
     string "WiFi SSID"
     default "myssid"
@@ -17,4 +16,41 @@ config ESP_MAXIMUM_RETRY
     default 5
     help
 	Set the Maximum retry to avoid station reconnecting to the AP unlimited when the AP is really inexistent.  
+endmenu
+menu "TAGs"
+config TAG
+    string "TAG application"
+    default "<App>"
+    help
+	TAG for debug purposes.
+
+config LOCALIZATION_TAG
+    string "Localization TAG"
+    default "<Localization>"
+    help
+	loc. TAG for debug purposes.
+
+config CLOCK_TAG
+    string "Clock TAG"
+    default "<Clock>"
+    help
+	clock. TAG for debug purposes.
+
+config HTTP_TAG
+    string "Http TAG"
+    default "<HTTP>"
+    help
+	http. TAG for debug purposes.
+endmenu
+menu "GPIOs"
+config GPIO_LED_O_TAG
+    int 
+    default 22
+    help
+	GPIO_LED_O_TAG. TAG for debug purposes.
+config GPIO_MICRO_O_TAG
+    int 
+    default 25
+    help
+	GPIO_MICRO_O_TAG. TAG for debug purposes.
 endmenu

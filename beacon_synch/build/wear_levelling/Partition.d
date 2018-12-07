@@ -5,7 +5,7 @@ Partition.o: \
  /home/miquel/esp/esp-idf/components/newlib/include/machine/_default_types.h \
  /home/miquel/esp/esp-idf/components/newlib/include/sys/features.h \
  /home/miquel/esp/esp-idf/components/newlib/include/sys/_intsup.h \
- /home/miquel/esp/beacon_synch/build/include/sdkconfig.h \
+ /home/miquel/esp/ESP32/beacon_synch/build/include/sdkconfig.h \
  /home/miquel/esp/esp-idf/components/esp32/include/rom/ets_sys.h \
  /home/miquel/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
  /home/miquel/esp/esp-idf/components/esp32/include/esp_assert.h \
@@ -47,7 +47,7 @@ Partition.o: \
 
 /home/miquel/esp/esp-idf/components/newlib/include/sys/_intsup.h:
 
-/home/miquel/esp/beacon_synch/build/include/sdkconfig.h:
+/home/miquel/esp/ESP32/beacon_synch/build/include/sdkconfig.h:
 
 /home/miquel/esp/esp-idf/components/esp32/include/rom/ets_sys.h:
 

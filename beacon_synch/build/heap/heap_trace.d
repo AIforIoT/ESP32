@@ -18,7 +18,7 @@ heap_trace.o: /home/miquel/esp/esp-idf/components/heap/heap_trace.c \
  /home/miquel/esp/esp-idf/components/newlib/include/sys/syslimits.h \
  /home/miquel/esp/esp-idf/components/newlib/include/machine/endian.h \
  /home/miquel/esp/esp-idf/components/newlib/include/machine/param.h \
- /home/miquel/esp/beacon_synch/build/include/sdkconfig.h \
+ /home/miquel/esp/ESP32/beacon_synch/build/include/sdkconfig.h \
  /home/miquel/esp/esp-idf/components/heap/include/esp_heap_trace.h \
  /home/miquel/esp/esp-idf/components/newlib/include/stdint.h \
  /home/miquel/esp/esp-idf/components/newlib/include/sys/_intsup.h \
@@ -126,7 +126,7 @@ heap_trace.o: /home/miquel/esp/esp-idf/components/heap/heap_trace.c \
 
 /home/miquel/esp/esp-idf/components/newlib/include/machine/param.h:
 
-/home/miquel/esp/beacon_synch/build/include/sdkconfig.h:
+/home/miquel/esp/ESP32/beacon_synch/build/include/sdkconfig.h:
 
 /home/miquel/esp/esp-idf/components/heap/include/esp_heap_trace.h:
 

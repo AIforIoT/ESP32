@@ -24,13 +24,12 @@ src/flash_encrypt.o: \
  /home/miquel/esp/esp-idf/components/newlib/include/sys/cdefs.h \
  /home/miquel/esp/esp-idf/components/newlib/include/sys/stdio.h \
  /home/miquel/esp/esp-idf/components/newlib/platform_include/assert.h \
- /home/miquel/esp/beacon_synch/build/include/sdkconfig.h \
+ /home/miquel/esp/ESP32/beacon_synch/build/include/sdkconfig.h \
  /home/miquel/esp/esp-idf/components/newlib/include/stdlib.h \
  /home/miquel/esp/esp-idf/components/newlib/include/machine/stdlib.h \
  /home/miquel/esp/esp-idf/components/newlib/include/alloca.h \
  /home/miquel/esp/esp-idf/components/newlib/include/assert.h \
  /home/miquel/esp/esp-idf/components/spi_flash/include/esp_spi_flash.h \
- /home/miquel/esp/esp-idf/components/bootloader_support/include/bootloader_random.h \
  /home/miquel/esp/esp-idf/components/bootloader_support/include/esp_image_format.h \
  /home/miquel/esp/esp-idf/components/bootloader_support/include/esp_flash_partitions.h \
  /home/miquel/esp/esp-idf/components/esp32/include/esp_flash_data_types.h \
@@ -114,7 +113,7 @@ src/flash_encrypt.o: \
 
 /home/miquel/esp/esp-idf/components/newlib/platform_include/assert.h:
 
-/home/miquel/esp/beacon_synch/build/include/sdkconfig.h:
+/home/miquel/esp/ESP32/beacon_synch/build/include/sdkconfig.h:
 
 /home/miquel/esp/esp-idf/components/newlib/include/stdlib.h:
 
@@ -125,8 +124,6 @@ src/flash_encrypt.o: \
 /home/miquel/esp/esp-idf/components/newlib/include/assert.h:
 
 /home/miquel/esp/esp-idf/components/spi_flash/include/esp_spi_flash.h:
-
-/home/miquel/esp/esp-idf/components/bootloader_support/include/bootloader_random.h:
 
 /home/miquel/esp/esp-idf/components/bootloader_support/include/esp_image_format.h:
 

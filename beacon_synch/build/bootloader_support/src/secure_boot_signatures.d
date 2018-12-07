@@ -1,6 +1,6 @@
 src/secure_boot_signatures.o: \
  /home/miquel/esp/esp-idf/components/bootloader_support/src/secure_boot_signatures.c \
- /home/miquel/esp/beacon_synch/build/include/sdkconfig.h \
+ /home/miquel/esp/ESP32/beacon_synch/build/include/sdkconfig.h \
  /home/miquel/esp/esp-idf/components/bootloader_support/include_bootloader/bootloader_flash.h \
  /home/miquel/esp/esp-idf/components/newlib/include/stdint.h \
  /home/miquel/esp/esp-idf/components/newlib/include/machine/_default_types.h \
@@ -46,7 +46,7 @@ src/secure_boot_signatures.o: \
  /home/miquel/esp/esp-idf/components/esp32/include/rom/sha.h \
  /home/miquel/esp/esp-idf/components/esp32/include/esp_types.h
 
-/home/miquel/esp/beacon_synch/build/include/sdkconfig.h:
+/home/miquel/esp/ESP32/beacon_synch/build/include/sdkconfig.h:
 
 /home/miquel/esp/esp-idf/components/bootloader_support/include_bootloader/bootloader_flash.h:
 

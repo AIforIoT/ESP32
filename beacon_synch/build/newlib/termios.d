@@ -1,5 +1,5 @@
 termios.o: /home/miquel/esp/esp-idf/components/newlib/termios.c \
- /home/miquel/esp/beacon_synch/build/include/sdkconfig.h \
+ /home/miquel/esp/ESP32/beacon_synch/build/include/sdkconfig.h \
  /home/miquel/esp/esp-idf/components/newlib/platform_include/sys/termios.h \
  /home/miquel/esp/esp-idf/components/newlib/include/stdint.h \
  /home/miquel/esp/esp-idf/components/newlib/include/machine/_default_types.h \
@@ -19,7 +19,7 @@ termios.o: /home/miquel/esp/esp-idf/components/newlib/termios.c \
  /home/miquel/esp/esp-idf/components/newlib/include/sys/errno.h \
  /home/miquel/esp/esp-idf/components/newlib/include/sys/reent.h
 
-/home/miquel/esp/beacon_synch/build/include/sdkconfig.h:
+/home/miquel/esp/ESP32/beacon_synch/build/include/sdkconfig.h:
 
 /home/miquel/esp/esp-idf/components/newlib/platform_include/sys/termios.h:
 
